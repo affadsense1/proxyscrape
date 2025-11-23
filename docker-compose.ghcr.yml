@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  proxyscrape:
+    # 使用 GitHub Container Registry 的预构建镜像
+    image: ghcr.io/affadsense1/proxyscrape:latest
+    container_name: proxyscrape
+    ports:
+      - "3000:3000"
+    volumes:
+      # 数据持久化：配置和节点数据
+      - ./data:/app/data
+      # Clash Core 配置持久化
+      - ./bin:/app/bin
+    # 重要：确保数据目录权限正确
+    # 运行前执行: sudo chown -R 1001:1001 data bin
+    environment:
+      - NODE_ENV=production
+      - TZ=Asia/Shanghai
+      - NEXT_TELEMETRY_DISABLED=1
+    restart: unless-stopped
+    
+    # 健康检查
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/api/nodes"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    # 资源限制（可选）
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M

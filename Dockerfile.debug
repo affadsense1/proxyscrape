@@ -1,0 +1,134 @@
+# 调试版 Dockerfile - 用于诊断 mihomo 文件问题
+FROM node:20-alpine AS base
+
+# 安装依赖阶段
+FROM base AS deps
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN npm ci
+
+# 构建阶段
+FROM base AS builder
+WORKDIR /app
+
+# 复制依赖
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+
+# 下载 Clash Core (支持多架构) - 添加详细日志
+RUN echo "========== 开始下载 Mihomo ==========" && \
+    apk add --no-cache curl file && \
+    mkdir -p bin && \
+    echo "✓ 已创建 bin 目录" && \
+    ls -la && \
+    MIHOMO_VERSION="v1.18.10" && \
+    case ${TARGETARCH:-$(uname -m)} in \
+        amd64|x86_64) MIHOMO_ARCH="amd64" ;; \
+        arm64|aarch64) MIHOMO_ARCH="arm64" ;; \
+        arm|armv7l) MIHOMO_ARCH="armv7" ;; \
+        *) echo "Unsupported architecture: ${TARGETARCH:-$(uname -m)}" && exit 1 ;; \
+    esac && \
+    echo "架构: ${MIHOMO_ARCH}" && \
+    echo "版本: ${MIHOMO_VERSION}" && \
+    DOWNLOAD_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-${MIHOMO_ARCH}-${MIHOMO_VERSION}.gz" && \
+    echo "下载 URL: ${DOWNLOAD_URL}" && \
+    curl -L -o mihomo.gz "${DOWNLOAD_URL}" && \
+    echo "✓ 下载完成" && \
+    ls -lh mihomo.gz && \
+    gunzip mihomo.gz && \
+    echo "✓ 解压完成" && \
+    ls -lh mihomo && \
+    mv mihomo bin/mihomo && \
+    echo "✓ 移动到 bin/mihomo" && \
+    chmod +x bin/mihomo && \
+    echo "✓ 设置执行权限" && \
+    file bin/mihomo && \
+    ls -lh bin/mihomo && \
+    bin/mihomo -v && \
+    echo "========== Mihomo 下载和验证成功 ==========" && \
+    echo "最终 bin 目录内容:" && \
+    ls -laR bin/
+
+# 构建项目（使用 standalone 模式）
+ENV NEXT_TELEMETRY_DISABLED=1
+RUN echo "========== 开始构建 Next.js ==========" && \
+    npm run build && \
+    echo "========== Next.js 构建完成 ==========" && \
+    echo "构建后 bin 目录内容:" && \
+    ls -laR bin/ && \
+    echo "standalone 目录内容:" && \
+    ls -laR .next/standalone/ || echo "standalone 目录不存在或为空"
+
+# 生产运行阶段
+FROM base AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+
+# 创建非 root 用户
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 nextjs
+
+# 创建目录
+RUN mkdir -p data bin && \
+    echo "✓ 已创建 data 和 bin 目录"
+
+# 复制构建产物
+COPY --from=builder /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+# 显示 builder 阶段的 bin 目录（调试用）
+RUN echo "========== 检查 builder 阶段的 bin 目录 =========="
+
+# 复制 mihomo 二进制文件 - 添加详细日志
+COPY --from=builder /app/bin/mihomo ./bin/mihomo
+RUN echo "✓ 已复制 mihomo 文件" && \
+    ls -la bin/ && \
+    echo "文件详情:" && \
+    ls -lh bin/mihomo
+
+# 设置权限
+RUN chmod +x bin/mihomo && \
+    chown -R nextjs:nodejs data bin && \
+    echo "✓ 已设置权限" && \
+    ls -la bin/mihomo && \
+    echo "========== Mihomo 复制和验证成功 =========="
+
+# 创建启动脚本
+RUN echo '#!/bin/sh' > /app/entrypoint.sh && \
+    echo 'set -e' >> /app/entrypoint.sh && \
+    echo 'echo "========== 容器启动 =========="' >> /app/entrypoint.sh && \
+    echo 'echo "检查 mihomo 文件..."' >> /app/entrypoint.sh && \
+    echo 'if [ -f /app/bin/mihomo ]; then' >> /app/entrypoint.sh && \
+    echo '  echo "[Startup] ✓ Mihomo binary found"' >> /app/entrypoint.sh && \
+    echo '  ls -lh /app/bin/mihomo' >> /app/entrypoint.sh && \
+    echo '  /app/bin/mihomo -v' >> /app/entrypoint.sh && \
+    echo '  chmod +x /app/bin/mihomo 2>/dev/null || true' >> /app/entrypoint.sh && \
+    echo 'else' >> /app/entrypoint.sh && \
+    echo '  echo "[Startup] ✗ Mihomo binary NOT found at /app/bin/mihomo"' >> /app/entrypoint.sh && \
+    echo '  echo "bin 目录内容:"' >> /app/entrypoint.sh && \
+    echo '  ls -la /app/bin/' >> /app/entrypoint.sh && \
+    echo 'fi' >> /app/entrypoint.sh && \
+    echo 'if [ -d /app/data ]; then' >> /app/entrypoint.sh && \
+    echo '  chown -R nextjs:nodejs /app/data 2>/dev/null || true' >> /app/entrypoint.sh && \
+    echo '  chmod -R 755 /app/data 2>/dev/null || true' >> /app/entrypoint.sh && \
+    echo 'fi' >> /app/entrypoint.sh && \
+    echo 'if [ -d /app/bin ]; then' >> /app/entrypoint.sh && \
+    echo '  chown -R nextjs:nodejs /app/bin 2>/dev/null || true' >> /app/entrypoint.sh && \
+    echo '  chmod -R 755 /app/bin 2>/dev/null || true' >> /app/entrypoint.sh && \
+    echo 'fi' >> /app/entrypoint.sh && \
+    echo 'echo "========== 启动应用 =========="' >> /app/entrypoint.sh && \
+    echo 'exec su-exec nextjs node server.js' >> /app/entrypoint.sh && \
+    chmod +x /app/entrypoint.sh
+
+# 安装 su-exec
+USER root
+RUN apk add --no-cache su-exec
+
+EXPOSE 3000
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
+
+CMD ["/app/entrypoint.sh"]

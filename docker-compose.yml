@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  autorss-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: autorss-web:latest
+    container_name: autorss-web
+    ports:
+      - "3000:3000"
+    volumes:
+      # 数据持久化：配置和节点数据
+      - ./data:/app/data
+      # Clash Core 配置持久化
+      - ./bin:/app/bin
+    # 如果遇到权限问题，取消下面的注释
+    # user: "1001:1001"
+    environment:
+      - NODE_ENV=production
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
+    # 健康检查
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/api/nodes"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    # 资源限制（可选）
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
