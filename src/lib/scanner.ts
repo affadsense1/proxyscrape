@@ -52,7 +52,7 @@ function parseNodeAddress(url: string): { host: string, port: number } | null {
             return { host: config.add, port: parseInt(config.port) };
         }
 
-        if (url.startsWith('trojan://') || url.startsWith('vless://')) {
+        if (url.startsWith('trojan://') || url.startsWith('vless://') || url.startsWith('socks5://')) {
             const u = new URL(url);
             return { host: u.hostname, port: parseInt(u.port) };
         }
@@ -72,7 +72,35 @@ function isValidNode(url: string): boolean {
     return url.startsWith('ss://') || 
            url.startsWith('vmess://') || 
            url.startsWith('trojan://') || 
-           url.startsWith('vless://');
+           url.startsWith('vless://') ||
+           url.startsWith('socks5://');
+}
+
+// 解析 SOCKS5 格式: 国家代码|IP:端口:用户名:密码
+function parseSocks5Format(line: string): string | null {
+    try {
+        const parts = line.trim().split('|');
+        if (parts.length !== 2) return null;
+        
+        const countryCode = parts[0].trim();
+        const proxyInfo = parts[1].split(':');
+        
+        if (proxyInfo.length !== 4) return null;
+        
+        const [ip, port, username, password] = proxyInfo;
+        
+        // 验证 IP 和端口
+        if (!ip || !port || isNaN(parseInt(port))) return null;
+        
+        // 构建 SOCKS5 URL: socks5://username:password@host:port#国家代码
+        const encodedUsername = encodeURIComponent(username);
+        const encodedPassword = encodeURIComponent(password);
+        const socks5Url = `socks5://${encodedUsername}:${encodedPassword}@${ip}:${port}#${countryCode}`;
+        
+        return socks5Url;
+    } catch (e) {
+        return null;
+    }
 }
 
 function tcpPing(host: string, port: number, timeout: number = 2000): Promise<number> {
@@ -324,6 +352,16 @@ export function extractNodes(content: string): string[] {
     for (const line of lines) {
         const trimmed = line.trim();
         if (!trimmed || trimmed.startsWith('#') || trimmed.startsWith('//')) continue;
+        
+        // 检查是否是 SOCKS5 格式: 国家代码|IP:端口:用户名:密码
+        if (trimmed.includes('|') && trimmed.split('|').length === 2) {
+            const socks5Url = parseSocks5Format(trimmed);
+            if (socks5Url) {
+                nodes.push(socks5Url);
+                continue;
+            }
+        }
+        
         if (isValidNode(trimmed)) {
             nodes.push(trimmed);
         } else if (isBase64(trimmed) && trimmed.length > 20) {
@@ -357,7 +395,22 @@ export async function checkNode(nodeUrl: string, labelCounter?: Map<string, numb
     let isp = undefined;
     let isNative = undefined;
 
-    if (/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(host)) {
+    // 如果是 SOCKS5，尝试从 URL 中提取国家代码
+    if (nodeUrl.startsWith('socks5://')) {
+        try {
+            const hashIndex = nodeUrl.indexOf('#');
+            if (hashIndex !== -1) {
+                countryCode = nodeUrl.substring(hashIndex + 1);
+                // 根据国家代码生成 emoji 和标签
+                const emoji = getCountryEmoji(countryCode);
+                label = `${emoji}|SOCKS5|${host}:${port}`;
+            } else {
+                label = `🧦|SOCKS5|${host}:${port}`;
+            }
+        } catch (e) {
+            label = `🧦|SOCKS5|${host}:${port}`;
+        }
+    } else if (/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(host)) {
         ipInfo = await queryIpInfo(host);
         if (ipInfo) {
             label = generateNodeLabel(ipInfo, host);

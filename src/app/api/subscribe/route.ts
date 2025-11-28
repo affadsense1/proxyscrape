@@ -149,6 +149,26 @@ function urlToClashProxy(url: string, label: string): any {
             return proxy;
         }
 
+        if (url.startsWith('socks5://')) {
+            const urlObj = new URL(url);
+            const proxy: any = {
+                name: label,
+                type: 'socks5',
+                server: urlObj.hostname,
+                port: parseInt(urlObj.port),
+            };
+
+            // SOCKS5 认证信息
+            if (urlObj.username) {
+                proxy.username = decodeURIComponent(urlObj.username);
+            }
+            if (urlObj.password) {
+                proxy.password = decodeURIComponent(urlObj.password);
+            }
+
+            return proxy;
+        }
+
     } catch (e) {
         console.error('[Subscribe] Failed to convert URL to Clash proxy:', e);
     }

@@ -1,1976 +1,1150 @@
 {
-  "totalNodes": 190,
-  "aliveNodes": 190,
+  "totalNodes": 127,
+  "aliveNodes": 127,
   "nodes": [
     {
-      "url": "vless://2348b74d-42a8-41f5-899c-371330fe4de1@9.9.9.9:23333?type=ws&security=tls&sni=www.com&path=%2F%3Fed%3D2560&host=www.com&allowInsecure=1#%E2%9A%AB%EF%B8%8E%20Channel%3A%20%40MxlShare",
-      "host": "9.9.9.9",
-      "port": 23333,
-      "label": "🇺🇸|美国|QUAD9-AS-1|原生IP",
-      "country": "美国",
+      "url": "socks5://abc%401230123:abc%401230123@84.32.44.186:43211#US",
+      "host": "84.32.44.186",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|84.32.44.186:43211",
       "countryCode": "US",
-      "isp": "QUAD9-AS-1",
-      "isNative": true,
-      "latency": 8,
-      "lastCheck": "2025-11-23T07:03:39.742Z"
+      "latency": 174,
+      "lastCheck": "2025-11-28T14:57:43.484Z"
     },
     {
-      "url": "vless://2348b74d-42a8-41f5-899c-371330fe4de1@9.9.9.9:12345?type=ws&security=tls&sni=www.com&path=%2F%3Fed%3D2560&host=www.com&allowInsecure=1#%E2%9A%AB%EF%B8%8E%20Source%3A%20wzdnzd%2Faggregator",
-      "host": "9.9.9.9",
-      "port": 12345,
-      "label": "🇺🇸|美国|QUAD9-AS-1|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "QUAD9-AS-1",
-      "isNative": true,
-      "latency": 11,
-      "lastCheck": "2025-11-23T07:03:39.775Z"
+      "url": "socks5://385277337:meng129635@47.108.62.36:14838#CN",
+      "host": "47.108.62.36",
+      "port": 14838,
+      "label": "🇨🇳|SOCKS5|47.108.62.36:14838",
+      "countryCode": "CN",
+      "latency": 86,
+      "lastCheck": "2025-11-28T14:57:43.395Z"
     },
     {
-      "url": "vless://2348b74d-42a8-41f5-899c-371330fe4de1@9.9.9.9:56789?type=ws&security=tls&sni=www.com&path=%2F%3Fed%3D2560&host=www.com&allowInsecure=1#%E2%9A%AB%EF%B8%8E%20Website%3A%20https%3A%2F%2Fmxlsub.qzz.io",
-      "host": "9.9.9.9",
-      "port": 56789,
-      "label": "🇺🇸|美国|QUAD9-AS-1|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "QUAD9-AS-1",
-      "isNative": true,
-      "latency": 14,
-      "lastCheck": "2025-11-23T07:03:39.716Z"
+      "url": "socks5://Misaka:Misaka@47.108.62.36:1234#CN",
+      "host": "47.108.62.36",
+      "port": 1234,
+      "label": "🇨🇳|SOCKS5|47.108.62.36:1234",
+      "countryCode": "CN",
+      "latency": 86,
+      "lastCheck": "2025-11-28T14:57:43.396Z"
     },
     {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@20.174.15.226:443?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A6%F0%9F%87%AA%20%E9%98%BF%E8%81%94%E9%85%8B%20%7C%20ARE",
-      "host": "20.174.15.226",
-      "port": 443,
-      "label": "🇦🇪|阿联酋|MICROSOFT-CORP-MSN-AS-BLOCK|广播IP",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "isp": "MICROSOFT-CORP-MSN-AS-BLOCK",
-      "isNative": false,
-      "latency": 16,
-      "lastCheck": "2025-11-23T07:03:39.730Z"
+      "url": "socks5://253433224:010203@106.54.225.137:23223#CN",
+      "host": "106.54.225.137",
+      "port": 23223,
+      "label": "🇨🇳|SOCKS5|106.54.225.137:23223",
+      "countryCode": "CN",
+      "latency": 55,
+      "lastCheck": "2025-11-28T14:57:43.364Z"
     },
     {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@193.123.90.82:12648?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A6%F0%9F%87%AA%20%E9%98%BF%E8%81%94%E9%85%8B%20%7C%20ARE%202",
-      "host": "193.123.90.82",
-      "port": 12648,
-      "label": "🇦🇪|阿联酋|ORACLE-BMC-31898|广播IP",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "isp": "ORACLE-BMC-31898",
-      "isNative": false,
-      "latency": 18,
-      "lastCheck": "2025-11-23T07:03:39.745Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@20.174.15.226:443?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A6%F0%9F%87%AA%20%E9%98%BF%E8%81%94%E9%85%8B%20%7C%20ARE%203",
-      "host": "20.174.15.226",
-      "port": 443,
-      "label": "🇦🇪|阿联酋|MICROSOFT-CORP-MSN-AS-BLOCK|广播IP",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "isp": "MICROSOFT-CORP-MSN-AS-BLOCK",
-      "isNative": false,
-      "latency": 19,
-      "lastCheck": "2025-11-23T07:03:39.771Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@193.123.90.82:12648?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A6%F0%9F%87%AA%20%E9%98%BF%E8%81%94%E9%85%8B%20%7C%20ARE%204",
-      "host": "193.123.90.82",
-      "port": 12648,
-      "label": "🇦🇪|阿联酋|ORACLE-BMC-31898|广播IP",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "isp": "ORACLE-BMC-31898",
-      "isNative": false,
-      "latency": 21,
-      "lastCheck": "2025-11-23T07:03:39.661Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@94.177.8.10:139?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A6%F0%9F%87%B9%20%E5%A5%A5%E5%9C%B0%E5%88%A9%20%7C%20AUT",
-      "host": "94.177.8.10",
-      "port": 139,
-      "label": "🇦🇹|奥地利|Hohl IT e.U.|原生IP",
-      "country": "奥地利",
-      "countryCode": "AT",
-      "isp": "Hohl IT e.U.",
-      "isNative": true,
-      "latency": 22,
-      "lastCheck": "2025-11-23T07:03:39.702Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@94.177.8.10:139?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A6%F0%9F%87%B9%20%E5%A5%A5%E5%9C%B0%E5%88%A9%20%7C%20AUT%202",
-      "host": "94.177.8.10",
-      "port": 139,
-      "label": "🇦🇹|奥地利|Hohl IT e.U.|原生IP",
-      "country": "奥地利",
-      "countryCode": "AT",
-      "isp": "Hohl IT e.U.",
-      "isNative": true,
-      "latency": 24,
-      "lastCheck": "2025-11-23T07:03:39.690Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HpvCfh7og5r6z5aSn5Yip5LqaIHwgQVVTIiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA2MyIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "xdd.dashuai.cyou",
-      "port": 45063,
-      "label": "xdd.dashuai.cyou:45063",
-      "latency": 176,
-      "lastCheck": "2025-11-23T07:03:38.382Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HpvCfh7og5r6z5aSn5Yip5LqaIHwgQVVTIDIiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDYyIiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "haa.dashuai.cyou",
-      "port": 45062,
-      "label": "haa.dashuai.cyou:45062",
-      "latency": 128,
-      "lastCheck": "2025-11-23T07:03:38.334Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HpvCfh7og5r6z5aSn5Yip5LqaIHwgQVVTIDMiLCJhZGQiOiJ4ZGQuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDYzIiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "xdd.dashuai.cyou",
-      "port": 45063,
-      "label": "xdd.dashuai.cyou:45063",
-      "latency": 176,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HpvCfh7og5r6z5aSn5Yip5LqaIHwgQVVTIDQiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDYyIiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "haa.dashuai.cyou",
-      "port": 45062,
-      "label": "haa.dashuai.cyou:45062",
-      "latency": 177,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "trojan://29d1b423-897a-40f5-be7d-f9d282b7c6ab@tuntro006.instconn.com:443?sni=torontorm1.686911.xyz&allowInsecure=1",
-      "host": "tuntro006.instconn.com",
-      "port": 443,
-      "label": "tuntro006.instconn.com:443",
-      "latency": 177,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh6Yg5Yqg5ou/5aSnIHwgQ0FOIDIiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDY0IiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "haa.dashuai.cyou",
-      "port": 45064,
-      "label": "haa.dashuai.cyou:45064",
-      "latency": 177,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@68.183.201.168:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%A6%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20%7C%20CAN%203",
-      "host": "68.183.201.168",
-      "port": 443,
-      "label": "🇨🇦|加拿大|DIGITALOCEAN-ASN|广播IP",
-      "country": "加拿大",
-      "countryCode": "CA",
-      "isp": "DIGITALOCEAN-ASN",
-      "isNative": false,
-      "latency": 25,
-      "lastCheck": "2025-11-23T07:03:39.675Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh6Yg5Yqg5ou/5aSnIHwgQ0FOIDUiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDY0IiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "haa.dashuai.cyou",
-      "port": 45064,
-      "label": "haa.dashuai.cyou:45064",
-      "latency": 177,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@68.183.201.168:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%A6%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20%7C%20CAN%206",
-      "host": "68.183.201.168",
-      "port": 443,
-      "label": "🇨🇦|加拿大|DIGITALOCEAN-ASN|广播IP",
-      "country": "加拿大",
-      "countryCode": "CA",
-      "isp": "DIGITALOCEAN-ASN",
-      "isNative": false,
-      "latency": 26,
-      "lastCheck": "2025-11-23T07:03:39.661Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+IHwgVFdOIiwiYWRkIjoiaGFhLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA3OCIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "haa.dashuai.cyou",
-      "port": 45078,
-      "label": "haa.dashuai.cyou:45078",
-      "latency": 176,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+IHwgVFdOIDIiLCJhZGQiOiJ4ZGQuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDc3IiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "xdd.dashuai.cyou",
-      "port": 45077,
-      "label": "xdd.dashuai.cyou:45077",
-      "latency": 176,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@210.61.97.241:81?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3%20%E5%8F%B0%E6%B9%BE%20%7C%20TWN%203",
-      "host": "210.61.97.241",
-      "port": 81,
-      "label": "🇹🇼|中国台湾|Data Communication Business Group|原生IP",
-      "country": "中国台湾",
-      "countryCode": "TW",
-      "isp": "Data Communication Business Group",
-      "isNative": true,
-      "latency": 26,
-      "lastCheck": "2025-11-23T07:03:39.748Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+IHwgVFdOIDQiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDc4IiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "haa.dashuai.cyou",
-      "port": 45078,
-      "label": "haa.dashuai.cyou:45078",
-      "latency": 176,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+IHwgVFdOIDUiLCJhZGQiOiJ4ZGQuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDc3IiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "xdd.dashuai.cyou",
-      "port": 45077,
-      "label": "xdd.dashuai.cyou:45077",
-      "latency": 176,
-      "lastCheck": "2025-11-23T07:03:38.383Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@210.61.97.241:81?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%B3%20%E5%8F%B0%E6%B9%BE%20%7C%20TWN%206",
-      "host": "210.61.97.241",
-      "port": 81,
-      "label": "🇹🇼|中国台湾|Data Communication Business Group|原生IP",
-      "country": "中国台湾",
-      "countryCode": "TW",
-      "isp": "Data Communication Business Group",
-      "isNative": true,
-      "latency": 28,
-      "lastCheck": "2025-11-23T07:03:39.727Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.26.2.119:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU",
-      "host": "104.26.2.119",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 28,
-      "lastCheck": "2025-11-23T07:03:39.768Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@46.101.123.235:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%202",
-      "host": "46.101.123.235",
-      "port": 8443,
-      "label": "🇩🇪|德国|DIGITALOCEAN-ASN|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "DIGITALOCEAN-ASN",
-      "isNative": false,
-      "latency": 29,
-      "lastCheck": "2025-11-23T07:03:39.742Z"
-    },
-    {
-      "url": "vless://95494adc-081c-409b-ae81-90906a053500@www.speedtest.net:2083?type=ws&security=tls&sni=golestan.hajalwi.ir.&path=%2F---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN%3Fed%3D8080&host=golestan.hajalwi.ir.&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%203",
-      "host": "www.speedtest.net",
-      "port": 2083,
-      "label": "www.speedtest.net:2083",
-      "latency": 252,
-      "lastCheck": "2025-11-23T07:03:38.459Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@31.56.237.252:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%204",
-      "host": "31.56.237.252",
-      "port": 8443,
-      "label": "🇦🇪|阿联酋|ZEN-DPS|原生IP",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "isp": "ZEN-DPS",
-      "isNative": true,
-      "latency": 30,
-      "lastCheck": "2025-11-23T07:03:39.700Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@185.103.252.54:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%205",
-      "host": "185.103.252.54",
-      "port": 2053,
-      "label": "🇩🇪|德国|First Server Limited|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "First Server Limited",
-      "isNative": false,
-      "latency": 31,
-      "lastCheck": "2025-11-23T07:03:39.778Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.26.9.95:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%206",
-      "host": "104.26.9.95",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 32,
-      "lastCheck": "2025-11-23T07:03:39.678Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.26.14.58:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%207",
-      "host": "104.26.14.58",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
+      "url": "socks5://385277337:meng129635@106.53.202.184:33915#CN",
+      "host": "106.53.202.184",
+      "port": 33915,
+      "label": "🇨🇳|SOCKS5|106.53.202.184:33915",
+      "countryCode": "CN",
       "latency": 34,
-      "lastCheck": "2025-11-23T07:03:39.782Z"
+      "lastCheck": "2025-11-28T14:57:43.343Z"
     },
     {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@31.25.88.229:8080?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%208",
-      "host": "31.25.88.229",
-      "port": 8080,
-      "label": "🇩🇪|德国|Kirino LLC|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Kirino LLC",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:39.742Z"
+      "url": "socks5://H1wvZ9htwK:e0WqsPpBjh@38.69.252.163:53444#US",
+      "host": "38.69.252.163",
+      "port": 53444,
+      "label": "🇺🇸|SOCKS5|38.69.252.163:53444",
+      "countryCode": "US",
+      "latency": 1215,
+      "lastCheck": "2025-11-28T14:57:50.550Z"
     },
     {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@172.67.72.171:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%209",
-      "host": "172.67.72.171",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 36,
-      "lastCheck": "2025-11-23T07:03:39.705Z"
+      "url": "socks5://abc%401230123:abc%401230123@117.34.121.59:43211#CN",
+      "host": "117.34.121.59",
+      "port": 43211,
+      "label": "🇨🇳|SOCKS5|117.34.121.59:43211",
+      "countryCode": "CN",
+      "latency": 54,
+      "lastCheck": "2025-11-28T14:57:51.407Z"
     },
     {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@51.195.102.180:8443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2010",
-      "host": "51.195.102.180",
-      "port": 8443,
-      "label": "🇫🇷|法国|OVH SAS|原生IP",
-      "country": "法国",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "isNative": true,
-      "latency": 36,
-      "lastCheck": "2025-11-23T07:03:39.726Z"
+      "url": "socks5://123:123@8.210.26.54:55883#HK",
+      "host": "8.210.26.54",
+      "port": 55883,
+      "label": "🇭🇰|SOCKS5|8.210.26.54:55883",
+      "countryCode": "HK",
+      "latency": 54,
+      "lastCheck": "2025-11-28T14:57:55.426Z"
     },
     {
-      "url": "trojan://38af00d3-7c80-49fe-b91a-34d0d8044ee2@57.129.16.72:2053?sni=joss.gpj1.web.id&type=ws&path=%252FFree-VPN-CF-Geo-Project%252F57.129.16.72%253D2053&host=joss.gpj1.web.id&allowInsecure=1",
-      "host": "57.129.16.72",
-      "port": 2053,
-      "label": "🇩🇪|德国|OVH SAS|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "OVH SAS",
-      "isNative": false,
-      "latency": 37,
-      "lastCheck": "2025-11-23T07:03:39.745Z"
+      "url": "socks5://wanghui1:wanghui1@43.252.229.243:3001#HK",
+      "host": "43.252.229.243",
+      "port": 3001,
+      "label": "🇭🇰|SOCKS5|43.252.229.243:3001",
+      "countryCode": "HK",
+      "latency": 76,
+      "lastCheck": "2025-11-28T14:57:55.448Z"
     },
     {
-      "url": "vless://db2c8a95-f751-46e3-b05e-d2def66850fb@www.visa.cn:443?type=ws&security=tls&sni=ayanamirei.11160321.xyz&path=%2Fed%3D2560&host=ayanamirei.11160321.xyz&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2012",
-      "host": "www.visa.cn",
-      "port": 443,
-      "label": "www.visa.cn:443",
-      "latency": 558,
-      "lastCheck": "2025-11-23T07:03:38.765Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.26.2.119:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2013",
-      "host": "104.26.2.119",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 38,
-      "lastCheck": "2025-11-23T07:03:39.779Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@46.101.123.235:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2014",
-      "host": "46.101.123.235",
-      "port": 8443,
-      "label": "🇩🇪|德国|DIGITALOCEAN-ASN|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "DIGITALOCEAN-ASN",
-      "isNative": false,
-      "latency": 40,
-      "lastCheck": "2025-11-23T07:03:39.751Z"
-    },
-    {
-      "url": "vless://95494adc-081c-409b-ae81-90906a053500@www.speedtest.net:2083?type=ws&security=tls&sni=golestan.hajalwi.ir.&path=%2F---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN%3Fed%3D8080&host=golestan.hajalwi.ir.&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2015",
-      "host": "www.speedtest.net",
-      "port": 2083,
-      "label": "www.speedtest.net:2083",
-      "latency": 252,
-      "lastCheck": "2025-11-23T07:03:38.459Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@31.56.237.252:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2016",
-      "host": "31.56.237.252",
-      "port": 8443,
-      "label": "🇦🇪|阿联酋|ZEN-DPS|原生IP",
-      "country": "阿联酋",
-      "countryCode": "AE",
-      "isp": "ZEN-DPS",
-      "isNative": true,
-      "latency": 41,
-      "lastCheck": "2025-11-23T07:03:39.699Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@185.103.252.54:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2017",
-      "host": "185.103.252.54",
-      "port": 2053,
-      "label": "🇩🇪|德国|First Server Limited|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "First Server Limited",
-      "isNative": false,
-      "latency": 42,
-      "lastCheck": "2025-11-23T07:03:39.681Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.26.9.95:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2018",
-      "host": "104.26.9.95",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 43,
-      "lastCheck": "2025-11-23T07:03:39.689Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.26.14.58:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2019",
-      "host": "104.26.14.58",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 44,
-      "lastCheck": "2025-11-23T07:03:39.687Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@31.25.88.229:8080?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2020",
-      "host": "31.25.88.229",
-      "port": 8080,
-      "label": "🇩🇪|德国|Kirino LLC|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Kirino LLC",
-      "isNative": false,
-      "latency": 45,
-      "lastCheck": "2025-11-23T07:03:39.772Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@172.67.72.171:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2021",
-      "host": "172.67.72.171",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
+      "url": "socks5://123:123@8.210.26.54:55883#CN",
+      "host": "8.210.26.54",
+      "port": 55883,
+      "label": "🇨🇳|SOCKS5|8.210.26.54:55883",
+      "countryCode": "CN",
       "latency": 46,
-      "lastCheck": "2025-11-23T07:03:39.698Z"
+      "lastCheck": "2025-11-28T14:57:55.418Z"
     },
     {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@51.195.102.180:8443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2022",
-      "host": "51.195.102.180",
-      "port": 8443,
-      "label": "🇫🇷|法国|OVH SAS|原生IP",
-      "country": "法国",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "isNative": true,
-      "latency": 47,
-      "lastCheck": "2025-11-23T07:03:39.788Z"
+      "url": "socks5://wanghui1:wanghui1@43.252.229.243:3001#CN",
+      "host": "43.252.229.243",
+      "port": 3001,
+      "label": "🇨🇳|SOCKS5|43.252.229.243:3001",
+      "countryCode": "CN",
+      "latency": 76,
+      "lastCheck": "2025-11-28T14:57:55.448Z"
     },
     {
-      "url": "vless://db2c8a95-f751-46e3-b05e-d2def66850fb@www.visa.cn:443?type=ws&security=tls&sni=ayanamirei.11160321.xyz&path=%2Fed%3D2560&host=ayanamirei.11160321.xyz&allowInsecure=1#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%2024",
-      "host": "www.visa.cn",
-      "port": 443,
-      "label": "www.visa.cn:443",
-      "latency": 558,
-      "lastCheck": "2025-11-23T07:03:38.765Z"
-    },
-    {
-      "url": "trojan://eb7339c5-70e4-4c7b-b5ef-4128adc8136a@38.180.72.162:2053?sni=joss.gpj1.web.id&type=ws&path=%252FFree-VPN-CF-Geo-Project%252F38.180.72.162%253D2053&host=joss.gpj1.web.id&allowInsecure=1",
-      "host": "38.180.72.162",
-      "port": 2053,
-      "label": "🇩🇰|丹麦|M247 Europe SRL|广播IP",
-      "country": "丹麦",
-      "countryCode": "DK",
-      "isp": "M247 Europe SRL",
-      "isNative": false,
-      "latency": 48,
-      "lastCheck": "2025-11-23T07:03:39.868Z"
-    },
-    {
-      "url": "trojan://3208e968-b862-4e2e-ad90-2b49e7ce7afb@37.252.5.75:443?sni=joss.gpj1.web.id&type=ws&path=%252FFree-VPN-CF-Geo-Project%252F37.252.5.75%253D443&host=joss.gpj1.web.id&allowInsecure=1",
-      "host": "37.252.5.75",
-      "port": 443,
-      "label": "🇪🇪|爱沙尼亚|Aktsiaselts WaveCom|广播IP",
-      "country": "爱沙尼亚",
-      "countryCode": "EE",
-      "isp": "Aktsiaselts WaveCom",
-      "isNative": false,
-      "latency": 49,
-      "lastCheck": "2025-11-23T07:03:39.734Z"
-    },
-    {
-      "url": "trojan://1e1a7efa-a4f1-4936-a470-a001e0c3c85b@212.227.144.37:8443?sni=joss.gpj1.web.id&type=ws&path=%252FFree-VPN-CF-Geo-Project%252F212.227.144.37%253D8443&host=joss.gpj1.web.id&allowInsecure=1",
-      "host": "212.227.144.37",
-      "port": 8443,
-      "label": "🇪🇸|西班牙|IONOS SE|广播IP",
-      "country": "西班牙",
-      "countryCode": "ES",
-      "isp": "IONOS SE",
-      "isNative": false,
-      "latency": 50,
-      "lastCheck": "2025-11-23T07:03:39.707Z"
-    },
-    {
-      "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYmhxc1N0bkZRVDFjVFpZQ2RzbWt1Z0dVQzZHVDZycA==@213.159.67.124:443",
-      "host": "213.159.67.124",
-      "port": 443,
-      "label": "🇲🇩|摩尔多瓦|WorkTitans B.V.|原生IP",
-      "country": "摩尔多瓦",
-      "countryCode": "MD",
-      "isp": "WorkTitans B.V.",
-      "isNative": true,
-      "latency": 14,
-      "lastCheck": "2025-11-23T07:03:40.134Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@38.244.137.32:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%AE%20%E8%8A%AC%E5%85%B0%20%7C%20FIN",
-      "host": "38.244.137.32",
-      "port": 443,
-      "label": "🇫🇮|芬兰|Scalaxy B.V.|广播IP",
-      "country": "芬兰",
-      "countryCode": "FI",
-      "isp": "Scalaxy B.V.",
-      "isNative": false,
-      "latency": 15,
-      "lastCheck": "2025-11-23T07:03:40.120Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@38.244.137.32:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%AE%20%E8%8A%AC%E5%85%B0%20%7C%20FIN%202",
-      "host": "38.244.137.32",
-      "port": 443,
-      "label": "🇫🇮|芬兰|Scalaxy B.V.|广播IP",
-      "country": "芬兰",
-      "countryCode": "FI",
-      "isp": "Scalaxy B.V.",
-      "isNative": false,
-      "latency": 16,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@51.91.255.97:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7%20%E6%B3%95%E5%9B%BD%20%7C%20FRA",
-      "host": "51.91.255.97",
-      "port": 8443,
-      "label": "🇫🇷|法国|OVH SAS|原生IP",
-      "country": "法国",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "isNative": true,
-      "latency": 16,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "trojan://e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098@51.15.210.1:443?sni=joss.gpj1.web.id&type=ws&path=%252FFree-VPN-CF-Geo-Project%252F51.15.210.1%253D443&host=joss.gpj1.web.id&allowInsecure=1",
-      "host": "51.15.210.1",
-      "port": 443,
-      "label": "🇫🇷|法国|Scaleway S.a.s.|原生IP",
-      "country": "法国",
-      "countryCode": "FR",
-      "isp": "Scaleway S.a.s.",
-      "isNative": true,
-      "latency": 16,
-      "lastCheck": "2025-11-23T07:03:40.119Z"
-    },
-    {
-      "url": "trojan://0e0c9c2a-6166-4337-bdfc-675602365807@141.94.204.212:2053?sni=joss.gpj1.web.id&type=ws&path=%252FFree-VPN-CF-Geo-Project%252F141.94.204.212%253D2053&host=joss.gpj1.web.id&allowInsecure=1",
-      "host": "141.94.204.212",
-      "port": 2053,
-      "label": "🇫🇷|法国|OVH SAS|原生IP",
-      "country": "法国",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "isNative": true,
-      "latency": 17,
-      "lastCheck": "2025-11-23T07:03:40.117Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@51.91.255.97:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7%20%E6%B3%95%E5%9B%BD%20%7C%20FRA%205",
-      "host": "51.91.255.97",
-      "port": 8443,
-      "label": "🇫🇷|法国|OVH SAS|原生IP",
-      "country": "法国",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "isNative": true,
-      "latency": 17,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@146.19.230.99:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AC%F0%9F%87%A7%20%E8%8B%B1%E5%9B%BD%20%7C%20GBR",
-      "host": "146.19.230.99",
-      "port": 443,
-      "label": "🇬🇧|英国|WorkTitans B.V.|原生IP",
-      "country": "英国",
-      "countryCode": "GB",
-      "isp": "WorkTitans B.V.",
-      "isNative": true,
-      "latency": 18,
-      "lastCheck": "2025-11-23T07:03:40.120Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@146.19.230.99:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AC%F0%9F%87%A7%20%E8%8B%B1%E5%9B%BD%20%7C%20GBR%202",
-      "host": "146.19.230.99",
-      "port": 443,
-      "label": "🇬🇧|英国|WorkTitans B.V.|原生IP",
-      "country": "英国",
-      "countryCode": "GB",
-      "isp": "WorkTitans B.V.",
-      "isNative": true,
-      "latency": 18,
-      "lastCheck": "2025-11-23T07:03:40.120Z"
-    },
-    {
-      "url": "trojan://f110cae8-91f2-458f-a917-8bbe1f80de6c@cdnfire.xiaomispeed.com:21102?sni=cdnfire.xiaomispeed.com&allowInsecure=1",
-      "host": "cdnfire.xiaomispeed.com",
-      "port": 21102,
-      "label": "cdnfire.xiaomispeed.com:21102",
-      "latency": 83,
-      "lastCheck": "2025-11-23T07:03:39.951Z"
-    },
-    {
-      "url": "ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.183.191:8388",
-      "host": "103.149.183.191",
-      "port": 8388,
-      "label": "🇭🇰|中国香港|Yun Zhong Technology Limited|原生IP",
-      "country": "中国香港",
-      "countryCode": "HK",
-      "isp": "Yun Zhong Technology Limited",
-      "isNative": true,
-      "latency": 19,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.218.245.116:41528?type=ws&security=tls&sni=0857fd70.ba73fe85.netlib.re&path=%2F&host=0857fd70.ba73fe85.netlib.re&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%203",
-      "host": "8.218.245.116",
-      "port": 41528,
-      "label": "🇭🇰|中国香港|阿里云国际|广播IP",
-      "country": "中国香港",
-      "countryCode": "HK",
-      "isp": "阿里云国际",
-      "isNative": false,
-      "latency": 19,
-      "lastCheck": "2025-11-23T07:03:40.117Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDQiLCJhZGQiOiJoa3QuZ290b2NoaW5hdG93bi5uZXQiLCJwb3J0IjoiODAiLCJpZCI6ImEyYjBmZDJiLTcxNmYtMGRmOC1kNGUyLTAzYTFjMDBlNWYxYSIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsInBhdGgiOiIvIiwidGxzIjoiIiwic25pIjoiIn0=",
-      "host": "hkt.gotochinatown.net",
-      "port": 80,
-      "label": "hkt.gotochinatown.net:80",
-      "latency": 24,
-      "lastCheck": "2025-11-23T07:03:39.892Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDUiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDUwIiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "haa.dashuai.cyou",
-      "port": 45050,
-      "label": "haa.dashuai.cyou:45050",
-      "latency": 123,
-      "lastCheck": "2025-11-23T07:03:39.991Z"
-    },
-    {
-      "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZTVkODNhMy00ZjIyLTRmNDQtODA0My1lODliZWQyYzhhZjI=@jry.izenny.com:26535",
-      "host": "jry.izenny.com",
-      "port": 26535,
-      "label": "jry.izenny.com:26535",
-      "latency": 142,
-      "lastCheck": "2025-11-23T07:03:40.010Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDciLCJhZGQiOiJmNzJlZDFmZi01NjdlLTk5YTEtZWVmYy1jYmI2ODkzNTAzODMuY29ubmVjdGlvbi5yZXN0IiwicG9ydCI6IjgwIiwiaWQiOiJlYzBkZDFmYy1mYzQ0LTQ4MTgtYWU0MS03OTA2NjI3ZjJlN2QiLCJhaWQiOiIwIiwibmV0IjoiaHR0cCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "f72ed1ff-567e-99a1-eefc-cbb689350383.connection.rest",
-      "port": 80,
-      "label": "f72ed1ff-567e-99a1-eefc-cbb689350383.connection.rest:80",
-      "latency": 513,
-      "lastCheck": "2025-11-23T07:03:40.381Z"
-    },
-    {
-      "url": "trojan://29d1b423-897a-40f5-be7d-f9d282b7c6ab@tuntro000.instconn.com:443?sni=hkip5.686911.xyz&allowInsecure=1",
-      "host": "tuntro000.instconn.com",
-      "port": 443,
-      "label": "tuntro000.instconn.com:443",
-      "latency": 142,
-      "lastCheck": "2025-11-23T07:03:40.010Z"
-    },
-    {
-      "url": "trojan://BxceQaOe@219.79.165.55:443?sni=t.me%252Fripaojiedian&allowInsecure=1",
-      "host": "219.79.165.55",
-      "port": 443,
-      "label": "🇭🇰|中国香港|HKT Limited|原生IP",
-      "country": "中国香港",
-      "countryCode": "HK",
-      "isp": "HKT Limited",
-      "isNative": true,
-      "latency": 19,
-      "lastCheck": "2025-11-23T07:03:40.123Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDEwIiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1MSIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "xdd.dashuai.cyou",
-      "port": 45051,
-      "label": "xdd.dashuai.cyou:45051",
-      "latency": 465,
-      "lastCheck": "2025-11-23T07:03:40.333Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@202.85.53.160:7000?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%2011",
-      "host": "202.85.53.160",
-      "port": 7000,
-      "label": "🇭🇰|中国香港|PCCW IMS Ltd PCCW Business Internet Access|原生IP",
-      "country": "中国香港",
-      "countryCode": "HK",
-      "isp": "PCCW IMS Ltd PCCW Business Internet Access",
-      "isNative": true,
-      "latency": 20,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@68.64.176.135:443?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%2012",
-      "host": "68.64.176.135",
-      "port": 443,
-      "label": "🇺🇸|美国|LUCIDACLOUD LIMITED|原生IP",
-      "country": "美国",
+      "url": "socks5://abc%401230123:abc%401230123@157.254.227.146:43211#US",
+      "host": "157.254.227.146",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|157.254.227.146:43211",
       "countryCode": "US",
-      "isp": "LUCIDACLOUD LIMITED",
-      "isNative": true,
-      "latency": 20,
-      "lastCheck": "2025-11-23T07:03:40.123Z"
+      "latency": 255,
+      "lastCheck": "2025-11-28T14:57:57.636Z"
     },
     {
-      "url": "trojan://1851e262-2a56-4bc7-8acb-c4c2c1cbf5b3@cdnfire.xiaomispeed.com:21101?sni=cdnfire.xiaomispeed.com&allowInsecure=1",
-      "host": "cdnfire.xiaomispeed.com",
-      "port": 21101,
-      "label": "cdnfire.xiaomispeed.com:21101",
-      "latency": 464,
-      "lastCheck": "2025-11-23T07:03:40.333Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDE1IiwiYWRkIjoiaGt0LmdvdG9jaGluYXRvd24ubmV0IiwicG9ydCI6IjgwIiwiaWQiOiJhZWQxY2MyNC0zNTFkLTExZWYtYmE1Mi1mMjNjOTE2NGNhNWQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJoa3QuZ290b2NoaW5hdG93bi5uZXQiLCJwYXRoIjoiLyIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "hkt.gotochinatown.net",
-      "port": 80,
-      "label": "hkt.gotochinatown.net:80",
-      "latency": 464,
-      "lastCheck": "2025-11-23T07:03:40.333Z"
-    },
-    {
-      "url": "vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.218.245.116:41528?type=ws&security=tls&sni=0857fd70.ba73fe85.netlib.re&path=%2F&host=0857fd70.ba73fe85.netlib.re&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%2018",
-      "host": "8.218.245.116",
-      "port": 41528,
-      "label": "🇭🇰|中国香港|阿里云国际|广播IP",
-      "country": "中国香港",
-      "countryCode": "HK",
-      "isp": "阿里云国际",
-      "isNative": false,
-      "latency": 19,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDE5IiwiYWRkIjoiaGt0LmdvdG9jaGluYXRvd24ubmV0IiwicG9ydCI6IjgwIiwiaWQiOiJhMmIwZmQyYi03MTZmLTBkZjgtZDRlMi0wM2ExYzAwZTVmMWEiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJoa3QuZ290b2NoaW5hdG93bi5uZXQiLCJwYXRoIjoiLyIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "hkt.gotochinatown.net",
-      "port": 80,
-      "label": "hkt.gotochinatown.net:80",
-      "latency": 464,
-      "lastCheck": "2025-11-23T07:03:40.333Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDIwIiwiYWRkIjoiaGFhLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1MCIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "haa.dashuai.cyou",
-      "port": 45050,
-      "label": "haa.dashuai.cyou:45050",
-      "latency": 464,
-      "lastCheck": "2025-11-23T07:03:40.333Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDIyIiwiYWRkIjoiZjcyZWQxZmYtNTY3ZS05OWExLWVlZmMtY2JiNjg5MzUwMzgzLmNvbm5lY3Rpb24ucmVzdCIsInBvcnQiOiI4MCIsImlkIjoiZWMwZGQxZmMtZmM0NC00ODE4LWFlNDEtNzkwNjYyN2YyZTdkIiwiYWlkIjoiMCIsIm5ldCI6Imh0dHAiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIiwic25pIjoiIn0=",
-      "host": "f72ed1ff-567e-99a1-eefc-cbb689350383.connection.rest",
-      "port": 80,
-      "label": "f72ed1ff-567e-99a1-eefc-cbb689350383.connection.rest:80",
-      "latency": 512,
-      "lastCheck": "2025-11-23T07:03:40.381Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDI1IiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1MSIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "xdd.dashuai.cyou",
-      "port": 45051,
-      "label": "xdd.dashuai.cyou:45051",
-      "latency": 512,
-      "lastCheck": "2025-11-23T07:03:40.381Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@202.85.53.160:7000?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%2026",
-      "host": "202.85.53.160",
-      "port": 7000,
-      "label": "🇭🇰|中国香港|PCCW IMS Ltd PCCW Business Internet Access|原生IP",
-      "country": "中国香港",
-      "countryCode": "HK",
-      "isp": "PCCW IMS Ltd PCCW Business Internet Access",
-      "isNative": true,
-      "latency": 20,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@68.64.176.135:443?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%2027",
-      "host": "68.64.176.135",
-      "port": 443,
-      "label": "🇺🇸|美国|LUCIDACLOUD LIMITED|原生IP",
-      "country": "美国",
+      "url": "socks5://J3Uqx5dTyf:aT4LEPBufk@146.19.167.81:13351#US",
+      "host": "146.19.167.81",
+      "port": 13351,
+      "label": "🇺🇸|SOCKS5|146.19.167.81:13351",
       "countryCode": "US",
-      "isp": "LUCIDACLOUD LIMITED",
-      "isNative": true,
-      "latency": 20,
-      "lastCheck": "2025-11-23T07:03:40.115Z"
+      "latency": 213,
+      "lastCheck": "2025-11-28T14:57:57.594Z"
     },
     {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIHwgSEtHIDMwIiwiYWRkIjoiaGt0LmdvdG9jaGluYXRvd24ubmV0IiwicG9ydCI6IjgwIiwiaWQiOiJhZWQxY2MyNC0zNTFkLTExZWYtYmE1Mi1mMjNjOTE2NGNhNWQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJoa3QuZ290b2NoaW5hdG93bi5uZXQiLCJwYXRoIjoiLyIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "hkt.gotochinatown.net",
-      "port": 80,
-      "label": "hkt.gotochinatown.net:80",
-      "latency": 512,
-      "lastCheck": "2025-11-23T07:03:40.381Z"
+      "url": "socks5://abc%401230123:abc%401230123@146.19.167.81:43211#US",
+      "host": "146.19.167.81",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|146.19.167.81:43211",
+      "countryCode": "US",
+      "latency": 210,
+      "lastCheck": "2025-11-28T14:57:57.592Z"
     },
     {
-      "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMDFmOTVlOC00Y2RjLTRhNjctOWNlOS1jMDYwNmNhNDg0OGU=@slur.izenny.com:30348",
-      "host": "slur.izenny.com",
-      "port": 30348,
-      "label": "slur.izenny.com:30348",
-      "latency": 512,
-      "lastCheck": "2025-11-23T07:03:40.381Z"
+      "url": "socks5://abc%401230123:abc%401230123@157.254.231.204:43211#US",
+      "host": "157.254.231.204",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|157.254.231.204:43211",
+      "countryCode": "US",
+      "latency": 245,
+      "lastCheck": "2025-11-28T14:57:57.626Z"
     },
     {
-      "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMDFmOTVlOC00Y2RjLTRhNjctOWNlOS1jMDYwNmNhNDg0OGU=@slur.izenny.com:17254",
-      "host": "slur.izenny.com",
-      "port": 17254,
-      "label": "slur.izenny.com:17254",
-      "latency": 512,
-      "lastCheck": "2025-11-23T07:03:40.381Z"
+      "url": "socks5://amx9hXFPOp:fZtKsDqi61@38.244.44.46:45346#US",
+      "host": "38.244.44.46",
+      "port": 45346,
+      "label": "🇺🇸|SOCKS5|38.244.44.46:45346",
+      "countryCode": "US",
+      "latency": 170,
+      "lastCheck": "2025-11-28T14:57:59.557Z"
     },
     {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@52.68.194.189:443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20%7C%20JPN%203",
-      "host": "52.68.194.189",
-      "port": 443,
-      "label": "🇯🇵|日本|亚马逊云|广播IP",
-      "country": "日本",
-      "countryCode": "JP",
-      "isp": "亚马逊云",
-      "isNative": false,
-      "latency": 20,
-      "lastCheck": "2025-11-23T07:03:40.124Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@52.68.194.189:443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20%7C%20JPN%208",
-      "host": "52.68.194.189",
-      "port": 443,
-      "label": "🇯🇵|日本|亚马逊云|广播IP",
-      "country": "日本",
-      "countryCode": "JP",
-      "isp": "亚马逊云",
-      "isNative": false,
-      "latency": 20,
-      "lastCheck": "2025-11-23T07:03:40.117Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@112.167.163.6:50000?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%202",
-      "host": "112.167.163.6",
-      "port": 50000,
-      "label": "🇰🇷|韩国|Korea Telecom|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "Korea Telecom",
-      "isNative": true,
-      "latency": 21,
-      "lastCheck": "2025-11-23T07:03:40.116Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@121.154.98.2:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%203",
-      "host": "121.154.98.2",
-      "port": 50001,
-      "label": "🇰🇷|韩国|Korea Telecom|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "Korea Telecom",
-      "isNative": true,
-      "latency": 21,
-      "lastCheck": "2025-11-23T07:03:40.119Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@221.153.42.212:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%205",
-      "host": "221.153.42.212",
-      "port": 50001,
-      "label": "🇰🇷|韩国|Korea Telecom|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "Korea Telecom",
-      "isNative": true,
-      "latency": 21,
-      "lastCheck": "2025-11-23T07:03:40.111Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@58.145.53.104:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%206",
-      "host": "58.145.53.104",
-      "port": 50001,
-      "label": "🇰🇷|韩国|SK Broadband Co Ltd|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "SK Broadband Co Ltd",
-      "isNative": true,
-      "latency": 21,
-      "lastCheck": "2025-11-23T07:03:40.111Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@123.143.94.194:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%207",
-      "host": "123.143.94.194",
-      "port": 50001,
-      "label": "🇰🇷|韩国|LG DACOM Corporation|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "LG DACOM Corporation",
-      "isNative": true,
-      "latency": 22,
-      "lastCheck": "2025-11-23T07:03:40.111Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@115.91.165.115:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%208",
-      "host": "115.91.165.115",
-      "port": 50001,
-      "label": "🇰🇷|韩国|LG DACOM Corporation|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "LG DACOM Corporation",
-      "isNative": true,
-      "latency": 22,
-      "lastCheck": "2025-11-23T07:03:40.113Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@211.201.173.99:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2010",
-      "host": "211.201.173.99",
-      "port": 50001,
-      "label": "🇰🇷|韩国|SK Broadband Co Ltd|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "SK Broadband Co Ltd",
-      "isNative": true,
-      "latency": 17,
-      "lastCheck": "2025-11-23T07:03:42.164Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@112.167.163.6:50000?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2012",
-      "host": "112.167.163.6",
-      "port": 50000,
-      "label": "🇰🇷|韩国|Korea Telecom|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "Korea Telecom",
-      "isNative": true,
-      "latency": 26,
-      "lastCheck": "2025-11-23T07:03:42.139Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@121.154.98.2:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2013",
-      "host": "121.154.98.2",
-      "port": 50001,
-      "label": "🇰🇷|韩国|Korea Telecom|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "Korea Telecom",
-      "isNative": true,
-      "latency": 27,
-      "lastCheck": "2025-11-23T07:03:42.142Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@221.153.42.212:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2015",
-      "host": "221.153.42.212",
-      "port": 50001,
-      "label": "🇰🇷|韩国|Korea Telecom|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "Korea Telecom",
-      "isNative": true,
-      "latency": 27,
-      "lastCheck": "2025-11-23T07:03:42.132Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@58.145.53.104:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2016",
-      "host": "58.145.53.104",
-      "port": 50001,
-      "label": "🇰🇷|韩国|SK Broadband Co Ltd|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "SK Broadband Co Ltd",
-      "isNative": true,
-      "latency": 28,
-      "lastCheck": "2025-11-23T07:03:42.143Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@123.143.94.194:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2017",
-      "host": "123.143.94.194",
-      "port": 50001,
-      "label": "🇰🇷|韩国|LG DACOM Corporation|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "LG DACOM Corporation",
-      "isNative": true,
-      "latency": 28,
-      "lastCheck": "2025-11-23T07:03:42.132Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@115.91.165.115:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2018",
-      "host": "115.91.165.115",
-      "port": 50001,
-      "label": "🇰🇷|韩国|LG DACOM Corporation|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "LG DACOM Corporation",
-      "isNative": true,
-      "latency": 29,
-      "lastCheck": "2025-11-23T07:03:42.137Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@211.201.173.99:50001?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%20%7C%20KOR%2020",
-      "host": "211.201.173.99",
-      "port": 50001,
-      "label": "🇰🇷|韩国|SK Broadband Co Ltd|原生IP",
-      "country": "韩国",
-      "countryCode": "KR",
-      "isp": "SK Broadband Co Ltd",
-      "isNative": true,
-      "latency": 29,
-      "lastCheck": "2025-11-23T07:03:42.150Z"
-    },
-    {
-      "url": "vless://247a22e1-0795-4852-9bdd-a65ac1078034@188.253.21.106:443?type=tcp&security=tls&sni=yahoo.com&allowInsecure=1#%F0%9F%87%B1%F0%9F%87%BB%20%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A%20%7C%20LVA",
-      "host": "188.253.21.106",
-      "port": 443,
-      "label": "🇱🇻|拉脱维亚|SIA VEESP|广播IP",
-      "country": "拉脱维亚",
-      "countryCode": "LV",
-      "isp": "SIA VEESP",
-      "isNative": false,
-      "latency": 29,
-      "lastCheck": "2025-11-23T07:03:42.144Z"
-    },
-    {
-      "url": "vless://9936ae5c-91cd-4c8a-80e9-5118a209a7e4@188.253.21.106:443?type=tcp&security=tls&sni=yahoo.com&allowInsecure=1#%F0%9F%87%B1%F0%9F%87%BB%20%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A%20%7C%20LVA%202",
-      "host": "188.253.21.106",
-      "port": 443,
-      "label": "🇱🇻|拉脱维亚|SIA VEESP|广播IP",
-      "country": "拉脱维亚",
-      "countryCode": "LV",
-      "isp": "SIA VEESP",
-      "isNative": false,
+      "url": "socks5://admin:admin@8.138.142.195:11111#CN",
+      "host": "8.138.142.195",
+      "port": 11111,
+      "label": "🇨🇳|SOCKS5|8.138.142.195:11111",
+      "countryCode": "CN",
       "latency": 30,
-      "lastCheck": "2025-11-23T07:03:42.143Z"
+      "lastCheck": "2025-11-28T14:57:59.417Z"
     },
     {
-      "url": "vless://247a22e1-0795-4852-9bdd-a65ac1078034@188.253.21.106:443?type=tcp&security=tls&sni=yahoo.com&allowInsecure=1#%F0%9F%87%B1%F0%9F%87%BB%20%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A%20%7C%20LVA%203",
-      "host": "188.253.21.106",
-      "port": 443,
-      "label": "🇱🇻|拉脱维亚|SIA VEESP|广播IP",
-      "country": "拉脱维亚",
-      "countryCode": "LV",
-      "isp": "SIA VEESP",
-      "isNative": false,
-      "latency": 30,
-      "lastCheck": "2025-11-23T07:03:42.143Z"
-    },
-    {
-      "url": "vless://9936ae5c-91cd-4c8a-80e9-5118a209a7e4@188.253.21.106:443?type=tcp&security=tls&sni=yahoo.com&allowInsecure=1#%F0%9F%87%B1%F0%9F%87%BB%20%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A%20%7C%20LVA%204",
-      "host": "188.253.21.106",
-      "port": 443,
-      "label": "🇱🇻|拉脱维亚|SIA VEESP|广播IP",
-      "country": "拉脱维亚",
-      "countryCode": "LV",
-      "isp": "SIA VEESP",
-      "isNative": false,
-      "latency": 30,
-      "lastCheck": "2025-11-23T07:03:42.144Z"
-    },
-    {
-      "url": "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.153.197.5:989",
-      "host": "185.153.197.5",
-      "port": 989,
-      "label": "🇲🇩|摩尔多瓦|''it Fruit'' S.r.l.|广播IP",
-      "country": "摩尔多瓦",
-      "countryCode": "MD",
-      "isp": "''it Fruit'' S.r.l.",
-      "isNative": false,
-      "latency": 31,
-      "lastCheck": "2025-11-23T07:03:42.150Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@90.156.228.74:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD",
-      "host": "90.156.228.74",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 31,
-      "lastCheck": "2025-11-23T07:03:42.147Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@85.193.95.220:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%202",
-      "host": "85.193.95.220",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 31,
-      "lastCheck": "2025-11-23T07:03:42.135Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@195.133.79.154:443?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%203",
-      "host": "195.133.79.154",
-      "port": 443,
-      "label": "🇳🇱|荷兰|NKtelecom INC|广播IP",
-      "country": "荷兰",
-      "countryCode": "NL",
-      "isp": "NKtelecom INC",
-      "isNative": false,
-      "latency": 32,
-      "lastCheck": "2025-11-23T07:03:42.145Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@194.35.119.135:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%204",
-      "host": "194.35.119.135",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 32,
-      "lastCheck": "2025-11-23T07:03:42.147Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@89.19.211.109:8443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%205",
-      "host": "89.19.211.109",
-      "port": 8443,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 32,
-      "lastCheck": "2025-11-23T07:03:42.141Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@85.193.95.23:8443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%206",
-      "host": "85.193.95.23",
-      "port": 8443,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 33,
-      "lastCheck": "2025-11-23T07:03:42.144Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@46.8.231.5:2053?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%207",
-      "host": "46.8.231.5",
-      "port": 2053,
-      "label": "🇳🇱|荷兰|Cgi Global Limited|广播IP",
-      "country": "荷兰",
-      "countryCode": "NL",
-      "isp": "Cgi Global Limited",
-      "isNative": false,
-      "latency": 33,
-      "lastCheck": "2025-11-23T07:03:42.150Z"
-    },
-    {
-      "url": "trojan://35f8e682-54bd-42c7-b537-94a8e4c84bcd@89.110.120.197:443?sni=joss.gpj1.web.id&type=ws&path=%252FFree-VPN-CF-Geo-Project%252F89.110.120.197%253D443&host=joss.gpj1.web.id&allowInsecure=1",
-      "host": "89.110.120.197",
-      "port": 443,
-      "label": "🇳🇱|荷兰|Servers Tech Fzco|广播IP",
-      "country": "荷兰",
-      "countryCode": "NL",
-      "isp": "Servers Tech Fzco",
-      "isNative": false,
-      "latency": 34,
-      "lastCheck": "2025-11-23T07:03:42.142Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@194.35.119.49:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%209",
-      "host": "194.35.119.49",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 34,
-      "lastCheck": "2025-11-23T07:03:42.137Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@81.200.154.2:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2010",
-      "host": "81.200.154.2",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 34,
-      "lastCheck": "2025-11-23T07:03:42.131Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@90.156.228.74:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2011",
-      "host": "90.156.228.74",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:42.136Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@85.193.95.220:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2012",
-      "host": "85.193.95.220",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:42.133Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@195.133.79.154:443?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2013",
-      "host": "195.133.79.154",
-      "port": 443,
-      "label": "🇳🇱|荷兰|NKtelecom INC|广播IP",
-      "country": "荷兰",
-      "countryCode": "NL",
-      "isp": "NKtelecom INC",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:42.132Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@194.35.119.135:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2014",
-      "host": "194.35.119.135",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:42.133Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@89.19.211.109:8443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2015",
-      "host": "89.19.211.109",
-      "port": 8443,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:42.131Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@85.193.95.23:8443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2016",
-      "host": "85.193.95.23",
-      "port": 8443,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:42.137Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@46.8.231.5:2053?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2017",
-      "host": "46.8.231.5",
-      "port": 2053,
-      "label": "🇳🇱|荷兰|Cgi Global Limited|广播IP",
-      "country": "荷兰",
-      "countryCode": "NL",
-      "isp": "Cgi Global Limited",
-      "isNative": false,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:42.137Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@194.35.119.49:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2019",
-      "host": "194.35.119.49",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 36,
-      "lastCheck": "2025-11-23T07:03:42.138Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@81.200.154.2:2053?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0%20%7C%20NLD%2020",
-      "host": "81.200.154.2",
-      "port": 2053,
-      "label": "🇩🇪|德国|Timeweb, LLP|广播IP",
-      "country": "德国",
-      "countryCode": "DE",
-      "isp": "Timeweb, LLP",
-      "isNative": false,
-      "latency": 36,
-      "lastCheck": "2025-11-23T07:03:42.147Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@91.149.253.249:443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B5%F0%9F%87%B1%20%E6%B3%A2%E5%85%B0%20%7C%20POL",
-      "host": "91.149.253.249",
-      "port": 443,
-      "label": "🇵🇱|波兰|ASNET|原生IP",
-      "country": "波兰",
-      "countryCode": "PL",
-      "isp": "ASNET",
-      "isNative": true,
-      "latency": 36,
-      "lastCheck": "2025-11-23T07:03:42.138Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@91.149.253.249:443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B5%F0%9F%87%B1%20%E6%B3%A2%E5%85%B0%20%7C%20POL%202",
-      "host": "91.149.253.249",
-      "port": 443,
-      "label": "🇵🇱|波兰|ASNET|原生IP",
-      "country": "波兰",
-      "countryCode": "PL",
-      "isp": "ASNET",
-      "isNative": true,
-      "latency": 36,
-      "lastCheck": "2025-11-23T07:03:42.133Z"
-    },
-    {
-      "url": "ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.231.233.112:989",
-      "host": "185.231.233.112",
-      "port": 989,
-      "label": "🇵🇹|葡萄牙|BrainStorm Network, Inc|原生IP",
-      "country": "葡萄牙",
-      "countryCode": "PT",
-      "isp": "BrainStorm Network, Inc",
-      "isNative": true,
-      "latency": 37,
-      "lastCheck": "2025-11-23T07:03:42.135Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@80.90.187.190:2053?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B7%F0%9F%87%BA%20%E4%BF%84%E7%BD%97%E6%96%AF%20%7C%20RUS",
-      "host": "80.90.187.190",
-      "port": 2053,
-      "label": "80.90.187.190:2053",
-      "latency": 37,
-      "lastCheck": "2025-11-23T07:03:51.930Z"
-    },
-    {
-      "url": "vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@80.90.187.190:2053?type=ws&security=tls&sni=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo&host=ak.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B7%F0%9F%87%BA%20%E4%BF%84%E7%BD%97%E6%96%AF%20%7C%20RUS%202",
-      "host": "80.90.187.190",
-      "port": 2053,
-      "label": "80.90.187.190:2053",
-      "latency": 38,
-      "lastCheck": "2025-11-23T07:03:51.930Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@31.57.107.115:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AA%20%E7%91%9E%E5%85%B8%20%7C%20SWE",
-      "host": "31.57.107.115",
-      "port": 8443,
-      "label": "31.57.107.115:8443",
-      "latency": 39,
-      "lastCheck": "2025-11-23T07:03:51.930Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@31.57.107.115:8443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AA%20%E7%91%9E%E5%85%B8%20%7C%20SWE%202",
-      "host": "31.57.107.115",
-      "port": 8443,
-      "label": "31.57.107.115:8443",
+      "url": "socks5://nn6PKEm4jJ:bCFzBvKdPL@47.238.199.39:10040#HK",
+      "host": "47.238.199.39",
+      "port": 10040,
+      "label": "🇭🇰|SOCKS5|47.238.199.39:10040",
+      "countryCode": "HK",
       "latency": 40,
-      "lastCheck": "2025-11-23T07:03:51.931Z"
+      "lastCheck": "2025-11-28T14:57:59.428Z"
     },
     {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@8.39.125.158:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%202",
-      "host": "8.39.125.158",
-      "port": 443,
-      "label": "8.39.125.158:443",
-      "latency": 41,
-      "lastCheck": "2025-11-23T07:03:51.931Z"
-    },
-    {
-      "url": "vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.35.211.191:443?type=ws&security=tls&sni=0857fd70.ba73fe85.netlib.re&path=%2F&host=0857fd70.ba73fe85.netlib.re&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%203",
-      "host": "8.35.211.191",
-      "port": 443,
-      "label": "8.35.211.191:443",
-      "latency": 42,
-      "lastCheck": "2025-11-23T07:03:51.931Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@198.41.223.14:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%204",
-      "host": "198.41.223.14",
-      "port": 443,
-      "label": "198.41.223.14:443",
-      "latency": 42,
-      "lastCheck": "2025-11-23T07:03:51.931Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@8.222.209.252:28465?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%207",
-      "host": "8.222.209.252",
-      "port": 28465,
-      "label": "8.222.209.252:28465",
-      "latency": 43,
-      "lastCheck": "2025-11-23T07:03:51.931Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@8.39.125.158:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%2011",
-      "host": "8.39.125.158",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 13,
-      "lastCheck": "2025-11-23T07:03:53.401Z"
-    },
-    {
-      "url": "vless://d342d11e-d424-4583-b36e-524ab1f0afa4@8.35.211.191:443?type=ws&security=tls&sni=0857fd70.ba73fe85.netlib.re&path=%2F&host=0857fd70.ba73fe85.netlib.re&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%2012",
-      "host": "8.35.211.191",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 15,
-      "lastCheck": "2025-11-23T07:03:53.402Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@198.41.223.14:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%2013",
-      "host": "198.41.223.14",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 16,
-      "lastCheck": "2025-11-23T07:03:53.404Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@8.222.209.252:28465?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%2016",
-      "host": "8.222.209.252",
-      "port": 28465,
-      "label": "🇸🇬|新加坡|阿里云国际|原生IP",
-      "country": "新加坡",
-      "countryCode": "SG",
-      "isp": "阿里云国际",
-      "isNative": true,
-      "latency": 18,
-      "lastCheck": "2025-11-23T07:03:53.178Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuPCfh6wg5paw5Yqg5Z2hIHwgU0dQIDE3IiwiYWRkIjoiaGFhLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1NCIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "haa.dashuai.cyou",
-      "port": 45054,
-      "label": "haa.dashuai.cyou:45054",
-      "latency": 93,
-      "lastCheck": "2025-11-23T07:03:52.024Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuPCfh6wg5paw5Yqg5Z2hIHwgU0dQIDE4IiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1NSIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "xdd.dashuai.cyou",
-      "port": 45055,
-      "label": "xdd.dashuai.cyou:45055",
-      "latency": 93,
-      "lastCheck": "2025-11-23T07:03:52.025Z"
-    },
-    {
-      "url": "vless://1f96ea91-034b-46a1-aa66-275193b426f6@rm-us-03.409648.xyz:20725?type=tcp&security=tls&sni=buylite.tv.apple.com&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA",
-      "host": "rm-us-03.409648.xyz",
-      "port": 20725,
-      "label": "rm-us-03.409648.xyz:20725",
-      "latency": 171,
-      "lastCheck": "2025-11-23T07:03:52.102Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@23.224.189.171:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%202",
-      "host": "23.224.189.171",
-      "port": 443,
-      "label": "🇺🇸|美国|CNSERVERS|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "CNSERVERS",
-      "isNative": true,
-      "latency": 20,
-      "lastCheck": "2025-11-23T07:03:53.189Z"
-    },
-    {
-      "url": "vless://4741863d-e3ac-4b9d-8185-466f437b3fa8@usvless.yydzx.xyz:17597?type=tcp&security=tls&sni=usvless.yydzx.xyz&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%203",
-      "host": "usvless.yydzx.xyz",
-      "port": 17597,
-      "label": "usvless.yydzx.xyz:17597",
-      "latency": 171,
-      "lastCheck": "2025-11-23T07:03:52.102Z"
-    },
-    {
-      "url": "vless://db2c8a95-f751-46e3-b05e-d2def66850fb@www.shopify.com:443?type=ws&security=tls&sni=ayanamirei.11160321.xyz&path=%2Fed%3D2560&host=ayanamirei.11160321.xyz&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%204",
-      "host": "www.shopify.com",
-      "port": 443,
-      "label": "www.shopify.com:443",
-      "latency": 229,
-      "lastCheck": "2025-11-23T07:03:52.160Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDUiLCJhZGQiOiI0ZDQxLWI1MTAtZmMzNWYyZDdlY2Q3LjY2NC5xenouaW8iLCJwb3J0IjoiNDQzIiwiaWQiOiIwNTA3ZmJjZC1iOTgzLTQzYTctOGUxZC0yYzU2MTk2MGFkNGYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiI0RDQxLWI1MTAtZkMzNWYyZDdlY2Q3LjY2NC5xWnouaW8iLCJwYXRoIjoiL3B5eVk0WlZUeUpWM3ZyOW5vT2huIiwidGxzIjoidGxzIiwic25pIjoiIn0=",
-      "host": "4d41-b510-fc35f2d7ecd7.664.qzz.io",
-      "port": 443,
-      "label": "4d41-b510-fc35f2d7ecd7.664.qzz.io:443",
-      "latency": 241,
-      "lastCheck": "2025-11-23T07:03:52.173Z"
-    },
-    {
-      "url": "vless://f0a44f8f-c01f-490c-a6eb-29106a2509a4@3.143.235.221:32252?type=grpc&security=tls&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%206",
-      "host": "3.143.235.221",
-      "port": 32252,
-      "label": "🇺🇸|美国|亚马逊云|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "亚马逊云",
-      "isNative": true,
-      "latency": 21,
-      "lastCheck": "2025-11-23T07:03:53.401Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDciLCJhZGQiOiJ4ZGQuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDUzIiwiaWQiOiI0ODZkZWY0NS0xMWYzLTRiNmMtYmI1Zi0xMDE3MTA5OTU5NjMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "xdd.dashuai.cyou",
-      "port": 45053,
-      "label": "xdd.dashuai.cyou:45053",
-      "latency": 229,
-      "lastCheck": "2025-11-23T07:03:52.160Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.19.54.161:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%208",
-      "host": "104.19.54.161",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 22,
-      "lastCheck": "2025-11-23T07:03:53.174Z"
-    },
-    {
-      "url": "vless://9397b007-452a-437f-9e6c-15981e4ed30f@172.66.156.81:80?type=ws&path=%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%209",
-      "host": "172.66.156.81",
-      "port": 80,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 22,
-      "lastCheck": "2025-11-23T07:03:53.174Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDEwIiwiYWRkIjoidjQuaGVkdWlhbi5saW5rIiwicG9ydCI6IjMwODA0IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJvY2JjLmNvbSIsInBhdGgiOiIvb29vbyIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "v4.heduian.link",
-      "port": 30804,
-      "label": "v4.heduian.link:30804",
-      "latency": 307,
-      "lastCheck": "2025-11-23T07:03:52.238Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.19.56.27:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2011",
-      "host": "104.19.56.27",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 23,
-      "lastCheck": "2025-11-23T07:03:53.178Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDEzIiwiYWRkIjoiMTZmYTk4YzQtNzNiOS1mZjhhLTA5N2YtNzE3MTg5NDYwOWRiLmNvbm5lY3Rpb24ucmVzdCIsInBvcnQiOiIyMDExIiwiaWQiOiJlYzBkZDFmYy1mYzQ0LTQ4MTgtYWU0MS03OTA2NjI3ZjJlN2QiLCJhaWQiOiIwIiwibmV0IjoiaHR0cCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest",
-      "port": 2011,
-      "label": "16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest:2011",
-      "latency": 368,
-      "lastCheck": "2025-11-23T07:03:52.299Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDE1IiwiYWRkIjoiaGFhLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1MiIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "haa.dashuai.cyou",
-      "port": 45052,
-      "label": "haa.dashuai.cyou:45052",
-      "latency": 307,
-      "lastCheck": "2025-11-23T07:03:52.238Z"
-    },
-    {
-      "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMDFmOTVlOC00Y2RjLTRhNjctOWNlOS1jMDYwNmNhNDg0OGU=@slur.izenny.com:40063",
-      "host": "slur.izenny.com",
-      "port": 40063,
-      "label": "slur.izenny.com:40063",
-      "latency": 307,
-      "lastCheck": "2025-11-23T07:03:52.238Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@66.42.65.198:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2017",
-      "host": "66.42.65.198",
-      "port": 443,
-      "label": "🇺🇸|美国|AS-VULTR|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "AS-VULTR",
-      "isNative": true,
-      "latency": 25,
-      "lastCheck": "2025-11-23T07:03:53.174Z"
-    },
-    {
-      "url": "vless://5b7124d0-7092-466c-b9fa-c13be64f0cb0@usvless.yydzx.xyz:17342?type=tcp&security=tls&sni=usvless.yydzx.xyz&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2018",
-      "host": "usvless.yydzx.xyz",
-      "port": 17342,
-      "label": "usvless.yydzx.xyz:17342",
-      "latency": 307,
-      "lastCheck": "2025-11-23T07:03:52.238Z"
-    },
-    {
-      "url": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpORFJ5U0lBQkFSYkVyTklWc0NOVmt5WUFIaUJ6aHZlVA==@23.95.75.146:443",
-      "host": "23.95.75.146",
-      "port": 443,
-      "label": "🇺🇸|美国|BrainStorm Network, Inc|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "BrainStorm Network, Inc",
-      "isNative": true,
-      "latency": 24,
-      "lastCheck": "2025-11-23T07:03:53.195Z"
-    },
-    {
-      "url": "trojan://f110cae8-91f2-458f-a917-8bbe1f80de6c@cdnfire.xiaomispeed.com:25502?sni=cdnfire.xiaomispeed.com&allowInsecure=1",
-      "host": "cdnfire.xiaomispeed.com",
-      "port": 25502,
-      "label": "cdnfire.xiaomispeed.com:25502",
-      "latency": 306,
-      "lastCheck": "2025-11-23T07:03:52.238Z"
-    },
-    {
-      "url": "vless://e1ac4005-4e5b-409e-a466-3032fbdb6e02@cosmin.ns.cloudflare.com:443?type=ws&security=tls&sni=638992008112160801.jimny-amsib.info&path=%2Fhixygmws&host=638992008112160801.jimny-amsib.info&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2021",
-      "host": "cosmin.ns.cloudflare.com",
-      "port": 443,
-      "label": "cosmin.ns.cloudflare.com:443",
-      "latency": 306,
-      "lastCheck": "2025-11-23T07:03:52.238Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@45.88.194.148:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2022",
-      "host": "45.88.194.148",
-      "port": 443,
-      "label": "🇺🇸|美国|DMIT-EYEBALL|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "DMIT-EYEBALL",
-      "isNative": true,
-      "latency": 25,
-      "lastCheck": "2025-11-23T07:03:53.386Z"
-    },
-    {
-      "url": "vless://aac71180-fb17-4a0b-941d-d6f90e256c70@test.myrpa.top:443?type=ws&security=tls&sni=test.myrpa.top&path=%2Fapple&host=test.myrpa.top&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2023",
-      "host": "test.myrpa.top",
-      "port": 443,
-      "label": "test.myrpa.top:443",
-      "latency": 403,
-      "lastCheck": "2025-11-23T07:03:52.335Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@193.124.18.13:443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2024",
-      "host": "193.124.18.13",
-      "port": 443,
-      "label": "🇨🇿|捷克|Cloudflare London, LLC|原生IP",
-      "country": "捷克",
-      "countryCode": "CZ",
-      "isp": "Cloudflare London, LLC",
-      "isNative": true,
-      "latency": 26,
-      "lastCheck": "2025-11-23T07:03:53.174Z"
-    },
-    {
-      "url": "vless://1f96ea91-034b-46a1-aa66-275193b426f6@rm-us-03.409648.xyz:20725?type=tcp&security=tls&sni=buylite.tv.apple.com&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2025",
-      "host": "rm-us-03.409648.xyz",
-      "port": 20725,
-      "label": "rm-us-03.409648.xyz:20725",
-      "latency": 368,
-      "lastCheck": "2025-11-23T07:03:52.300Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@23.224.189.171:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2026",
-      "host": "23.224.189.171",
-      "port": 443,
-      "label": "🇺🇸|美国|CNSERVERS|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "CNSERVERS",
-      "isNative": true,
-      "latency": 26,
-      "lastCheck": "2025-11-23T07:03:53.429Z"
-    },
-    {
-      "url": "vless://4741863d-e3ac-4b9d-8185-466f437b3fa8@usvless.yydzx.xyz:17597?type=tcp&security=tls&sni=usvless.yydzx.xyz&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2027",
-      "host": "usvless.yydzx.xyz",
-      "port": 17597,
-      "label": "usvless.yydzx.xyz:17597",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vless://db2c8a95-f751-46e3-b05e-d2def66850fb@www.shopify.com:443?type=ws&security=tls&sni=ayanamirei.11160321.xyz&path=%2Fed%3D2560&host=ayanamirei.11160321.xyz&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2028",
-      "host": "www.shopify.com",
-      "port": 443,
-      "label": "www.shopify.com:443",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDI5IiwiYWRkIjoiNGQ0MS1iNTEwLWZjMzVmMmQ3ZWNkNy42NjQucXp6LmlvIiwicG9ydCI6IjQ0MyIsImlkIjoiMDUwN2ZiY2QtYjk4My00M2E3LThlMWQtMmM1NjE5NjBhZDRmIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiNEQ0MS1iNTEwLWZDMzVmMmQ3ZWNkNy42NjQucVp6LmlvIiwicGF0aCI6Ii9weXlZNFpWVHlKVjN2cjlub09obiIsInRscyI6InRscyIsInNuaSI6IiJ9",
-      "host": "4d41-b510-fc35f2d7ecd7.664.qzz.io",
-      "port": 443,
-      "label": "4d41-b510-fc35f2d7ecd7.664.qzz.io:443",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vless://f0a44f8f-c01f-490c-a6eb-29106a2509a4@3.143.235.221:32252?type=grpc&security=tls&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2030",
-      "host": "3.143.235.221",
-      "port": 32252,
-      "label": "🇺🇸|美国|亚马逊云|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "亚马逊云",
-      "isNative": true,
-      "latency": 27,
-      "lastCheck": "2025-11-23T07:03:53.409Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDMxIiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1MyIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "xdd.dashuai.cyou",
-      "port": 45053,
-      "label": "xdd.dashuai.cyou:45053",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.19.54.161:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2032",
-      "host": "104.19.54.161",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 27,
-      "lastCheck": "2025-11-23T07:03:53.414Z"
-    },
-    {
-      "url": "vless://9397b007-452a-437f-9e6c-15981e4ed30f@172.66.156.81:80?type=ws&path=%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2033",
-      "host": "172.66.156.81",
-      "port": 80,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 28,
-      "lastCheck": "2025-11-23T07:03:53.186Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDM0IiwiYWRkIjoidjQuaGVkdWlhbi5saW5rIiwicG9ydCI6IjMwODA0IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJvY2JjLmNvbSIsInBhdGgiOiIvb29vbyIsInRscyI6IiIsInNuaSI6IiJ9",
-      "host": "v4.heduian.link",
-      "port": 30804,
-      "label": "v4.heduian.link:30804",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@104.19.56.27:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2035",
-      "host": "104.19.56.27",
-      "port": 443,
-      "label": "Cloudflare",
-      "isp": "Cloudflare",
-      "latency": 29,
-      "lastCheck": "2025-11-23T07:03:53.409Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDM3IiwiYWRkIjoiMTZmYTk4YzQtNzNiOS1mZjhhLTA5N2YtNzE3MTg5NDYwOWRiLmNvbm5lY3Rpb24ucmVzdCIsInBvcnQiOiIyMDExIiwiaWQiOiJlYzBkZDFmYy1mYzQ0LTQ4MTgtYWU0MS03OTA2NjI3ZjJlN2QiLCJhaWQiOiIwIiwibmV0IjoiaHR0cCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest",
-      "port": 2011,
-      "label": "16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest:2011",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IHwgVVNBIDM5IiwiYWRkIjoiaGFhLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA1MiIsImlkIjoiNDg2ZGVmNDUtMTFmMy00YjZjLWJiNWYtMTAxNzEwOTk1OTYzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIifQ==",
-      "host": "haa.dashuai.cyou",
-      "port": 45052,
-      "label": "haa.dashuai.cyou:45052",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@66.42.65.198:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2041",
-      "host": "66.42.65.198",
-      "port": 443,
-      "label": "🇺🇸|美国|AS-VULTR|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "AS-VULTR",
-      "isNative": true,
-      "latency": 31,
-      "lastCheck": "2025-11-23T07:03:53.394Z"
-    },
-    {
-      "url": "vless://5b7124d0-7092-466c-b9fa-c13be64f0cb0@usvless.yydzx.xyz:17342?type=tcp&security=tls&sni=usvless.yydzx.xyz&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2042",
-      "host": "usvless.yydzx.xyz",
-      "port": 17342,
-      "label": "usvless.yydzx.xyz:17342",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vless://e1ac4005-4e5b-409e-a466-3032fbdb6e02@cosmin.ns.cloudflare.com:443?type=ws&security=tls&sni=638992008112160801.jimny-amsib.info&path=%2Fhixygmws&host=638992008112160801.jimny-amsib.info&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2045",
-      "host": "cosmin.ns.cloudflare.com",
-      "port": 443,
-      "label": "cosmin.ns.cloudflare.com:443",
-      "latency": 370,
-      "lastCheck": "2025-11-23T07:03:52.302Z"
-    },
-    {
-      "url": "vless://54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58@45.88.194.148:443?type=ws&security=tls&sni=bp.suoni.nyc.mn&path=%2Fproxyip%3DProxyIP.SG.CMLiussss.net&host=bp.suoni.nyc.mn&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2046",
-      "host": "45.88.194.148",
-      "port": 443,
-      "label": "🇺🇸|美国|DMIT-EYEBALL|原生IP",
-      "country": "美国",
-      "countryCode": "US",
-      "isp": "DMIT-EYEBALL",
-      "isNative": true,
-      "latency": 33,
-      "lastCheck": "2025-11-23T07:03:53.174Z"
-    },
-    {
-      "url": "vless://aac71180-fb17-4a0b-941d-d6f90e256c70@test.myrpa.top:443?type=ws&security=tls&sni=test.myrpa.top&path=%2Fapple&host=test.myrpa.top&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2047",
-      "host": "test.myrpa.top",
-      "port": 443,
-      "label": "test.myrpa.top:443",
-      "latency": 398,
-      "lastCheck": "2025-11-23T07:03:52.330Z"
-    },
-    {
-      "url": "vless://5aba5b77-48eb-4ae2-b60d-5bfee7ac169e@193.124.18.13:443?type=ws&security=tls&sni=kuangbao.xiejiang.dpdns.org&path=%2F%3Fed%3D2560&host=kuangbao.xiejiang.dpdns.org&allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2048",
-      "host": "193.124.18.13",
-      "port": 443,
-      "label": "🇨🇿|捷克|Cloudflare London, LLC|原生IP",
-      "country": "捷克",
-      "countryCode": "CZ",
-      "isp": "Cloudflare London, LLC",
-      "isNative": true,
+      "url": "socks5://nn6PKEm4jJ:bCFzBvKdPL@47.238.199.39:10040#CN",
+      "host": "47.238.199.39",
+      "port": 10040,
+      "label": "🇨🇳|SOCKS5|47.238.199.39:10040",
+      "countryCode": "CN",
       "latency": 34,
-      "lastCheck": "2025-11-23T07:03:53.179Z"
+      "lastCheck": "2025-11-28T14:57:59.422Z"
     },
     {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.235:38388",
-      "host": "103.186.155.235",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 35,
-      "lastCheck": "2025-11-23T07:03:53.179Z"
-    },
-    {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.30:38388",
-      "host": "103.186.155.30",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 37,
-      "lastCheck": "2025-11-23T07:03:53.402Z"
-    },
-    {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.143:38388",
-      "host": "103.186.154.143",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
+      "url": "socks5://13729912036:13729912036a@115.159.107.18:6666#CN",
+      "host": "115.159.107.18",
+      "port": 6666,
+      "label": "🇨🇳|SOCKS5|115.159.107.18:6666",
+      "countryCode": "CN",
       "latency": 39,
-      "lastCheck": "2025-11-23T07:03:53.195Z"
+      "lastCheck": "2025-11-28T14:57:59.427Z"
     },
     {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.66:38388",
-      "host": "103.186.154.66",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 7,
-      "lastCheck": "2025-11-23T07:03:53.690Z"
+      "url": "socks5://188:188@218.78.81.160:188#CN",
+      "host": "218.78.81.160",
+      "port": 188,
+      "label": "🇨🇳|SOCKS5|218.78.81.160:188",
+      "countryCode": "CN",
+      "latency": 43,
+      "lastCheck": "2025-11-28T14:58:01.694Z"
     },
     {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.42:38388",
-      "host": "103.186.155.42",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 7,
-      "lastCheck": "2025-11-23T07:03:53.679Z"
+      "url": "socks5://188:188@218.78.22.250:188#CN",
+      "host": "218.78.22.250",
+      "port": 188,
+      "label": "🇨🇳|SOCKS5|218.78.22.250:188",
+      "countryCode": "CN",
+      "latency": 33,
+      "lastCheck": "2025-11-28T14:58:01.684Z"
     },
     {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.12:38388",
-      "host": "103.186.155.12",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 8,
-      "lastCheck": "2025-11-23T07:03:53.672Z"
+      "url": "socks5://188:188@218.78.90.99:188#CN",
+      "host": "218.78.90.99",
+      "port": 188,
+      "label": "🇨🇳|SOCKS5|218.78.90.99:188",
+      "countryCode": "CN",
+      "latency": 29,
+      "lastCheck": "2025-11-28T14:58:01.680Z"
     },
     {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.201:38388",
-      "host": "103.186.154.201",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 8,
-      "lastCheck": "2025-11-23T07:03:53.679Z"
+      "url": "socks5://188:188@101.91.208.104:188#CN",
+      "host": "101.91.208.104",
+      "port": 188,
+      "label": "🇨🇳|SOCKS5|101.91.208.104:188",
+      "countryCode": "CN",
+      "latency": 37,
+      "lastCheck": "2025-11-28T14:58:01.688Z"
     },
     {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.218:38388",
-      "host": "103.186.155.218",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 9,
-      "lastCheck": "2025-11-23T07:03:53.669Z"
+      "url": "socks5://188:188@101.89.135.217:188#CN",
+      "host": "101.89.135.217",
+      "port": 188,
+      "label": "🇨🇳|SOCKS5|101.89.135.217:188",
+      "countryCode": "CN",
+      "latency": 31,
+      "lastCheck": "2025-11-28T14:58:01.683Z"
     },
     {
-      "url": "ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.187:38388",
-      "host": "103.186.154.187",
-      "port": 38388,
-      "label": "🇻🇳|越南|VIETPN Company Limited|原生IP",
-      "country": "越南",
-      "countryCode": "VN",
-      "isp": "VIETPN Company Limited",
-      "isNative": true,
-      "latency": 8,
-      "lastCheck": "2025-11-23T07:03:53.677Z"
+      "url": "socks5://123:123@14.18.48.54:123#CN",
+      "host": "14.18.48.54",
+      "port": 123,
+      "label": "🇨🇳|SOCKS5|14.18.48.54:123",
+      "countryCode": "CN",
+      "latency": 62,
+      "lastCheck": "2025-11-28T14:58:01.714Z"
+    },
+    {
+      "url": "socks5://123:123@183.56.197.129:123#CN",
+      "host": "183.56.197.129",
+      "port": 123,
+      "label": "🇨🇳|SOCKS5|183.56.197.129:123",
+      "countryCode": "CN",
+      "latency": 68,
+      "lastCheck": "2025-11-28T14:58:01.720Z"
+    },
+    {
+      "url": "socks5://123:123@14.18.115.190:123#CN",
+      "host": "14.18.115.190",
+      "port": 123,
+      "label": "🇨🇳|SOCKS5|14.18.115.190:123",
+      "countryCode": "CN",
+      "latency": 72,
+      "lastCheck": "2025-11-28T14:58:01.725Z"
+    },
+    {
+      "url": "socks5://123:123@14.18.114.47:123#CN",
+      "host": "14.18.114.47",
+      "port": 123,
+      "label": "🇨🇳|SOCKS5|14.18.114.47:123",
+      "countryCode": "CN",
+      "latency": 74,
+      "lastCheck": "2025-11-28T14:58:01.727Z"
+    },
+    {
+      "url": "socks5://123:123@14.18.69.14:123#CN",
+      "host": "14.18.69.14",
+      "port": 123,
+      "label": "🇨🇳|SOCKS5|14.18.69.14:123",
+      "countryCode": "CN",
+      "latency": 67,
+      "lastCheck": "2025-11-28T14:58:01.720Z"
+    },
+    {
+      "url": "socks5://123:123@125.88.245.14:123#CN",
+      "host": "125.88.245.14",
+      "port": 123,
+      "label": "🇨🇳|SOCKS5|125.88.245.14:123",
+      "countryCode": "CN",
+      "latency": 43,
+      "lastCheck": "2025-11-28T14:58:01.698Z"
+    },
+    {
+      "url": "socks5://66:66@14.18.120.153:66#CN",
+      "host": "14.18.120.153",
+      "port": 66,
+      "label": "🇨🇳|SOCKS5|14.18.120.153:66",
+      "countryCode": "CN",
+      "latency": 68,
+      "lastCheck": "2025-11-28T14:58:01.723Z"
+    },
+    {
+      "url": "socks5://666:666@14.18.96.214:666#CN",
+      "host": "14.18.96.214",
+      "port": 666,
+      "label": "🇨🇳|SOCKS5|14.18.96.214:666",
+      "countryCode": "CN",
+      "latency": 70,
+      "lastCheck": "2025-11-28T14:58:01.725Z"
+    },
+    {
+      "url": "socks5://666:666@14.116.211.199:666#CN",
+      "host": "14.116.211.199",
+      "port": 666,
+      "label": "🇨🇳|SOCKS5|14.116.211.199:666",
+      "countryCode": "CN",
+      "latency": 43,
+      "lastCheck": "2025-11-28T14:58:01.698Z"
+    },
+    {
+      "url": "socks5://666:666@49.7.230.119:666#CN",
+      "host": "49.7.230.119",
+      "port": 666,
+      "label": "🇨🇳|SOCKS5|49.7.230.119:666",
+      "countryCode": "CN",
+      "latency": 41,
+      "lastCheck": "2025-11-28T14:58:03.706Z"
+    },
+    {
+      "url": "socks5://vip1:123456@182.151.27.203:1889#CN",
+      "host": "182.151.27.203",
+      "port": 1889,
+      "label": "🇨🇳|SOCKS5|182.151.27.203:1889",
+      "countryCode": "CN",
+      "latency": 61,
+      "lastCheck": "2025-11-28T14:58:03.727Z"
+    },
+    {
+      "url": "socks5://188:188@101.89.188.59:188#CN",
+      "host": "101.89.188.59",
+      "port": 188,
+      "label": "🇨🇳|SOCKS5|101.89.188.59:188",
+      "countryCode": "CN",
+      "latency": 29,
+      "lastCheck": "2025-11-28T14:58:03.695Z"
+    },
+    {
+      "url": "socks5://biWw64wCIs:IrhmDsaJbe@174.137.49.121:23371#US",
+      "host": "174.137.49.121",
+      "port": 23371,
+      "label": "🇺🇸|SOCKS5|174.137.49.121:23371",
+      "countryCode": "US",
+      "latency": 237,
+      "lastCheck": "2025-11-28T14:58:03.903Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@66.103.210.150:27917#CA",
+      "host": "66.103.210.150",
+      "port": 27917,
+      "label": "🇨🇦|SOCKS5|66.103.210.150:27917",
+      "countryCode": "CA",
+      "latency": 190,
+      "lastCheck": "2025-11-28T14:58:07.889Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@103.124.107.188:43211#US",
+      "host": "103.124.107.188",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|103.124.107.188:43211",
+      "countryCode": "US",
+      "latency": 207,
+      "lastCheck": "2025-11-28T14:58:07.907Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:39321#SG",
+      "host": "43.156.40.51",
+      "port": 39321,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:39321",
+      "countryCode": "SG",
+      "latency": 233,
+      "lastCheck": "2025-11-28T14:58:07.932Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:38768#SG",
+      "host": "43.156.40.51",
+      "port": 38768,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:38768",
+      "countryCode": "SG",
+      "latency": 224,
+      "lastCheck": "2025-11-28T14:58:07.923Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:56829#SG",
+      "host": "43.156.40.51",
+      "port": 56829,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:56829",
+      "countryCode": "SG",
+      "latency": 256,
+      "lastCheck": "2025-11-28T14:58:07.955Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:49245#SG",
+      "host": "43.156.40.51",
+      "port": 49245,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:49245",
+      "countryCode": "SG",
+      "latency": 222,
+      "lastCheck": "2025-11-28T14:58:09.925Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:40545#SG",
+      "host": "43.156.40.51",
+      "port": 40545,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:40545",
+      "countryCode": "SG",
+      "latency": 218,
+      "lastCheck": "2025-11-28T14:58:09.921Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:36439#SG",
+      "host": "43.156.40.51",
+      "port": 36439,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:36439",
+      "countryCode": "SG",
+      "latency": 213,
+      "lastCheck": "2025-11-28T14:58:09.916Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:39791#SG",
+      "host": "43.156.40.51",
+      "port": 39791,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:39791",
+      "countryCode": "SG",
+      "latency": 210,
+      "lastCheck": "2025-11-28T14:58:09.913Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:11012#SG",
+      "host": "43.156.40.51",
+      "port": 11012,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:11012",
+      "countryCode": "SG",
+      "latency": 206,
+      "lastCheck": "2025-11-28T14:58:09.909Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:34771#SG",
+      "host": "43.156.40.51",
+      "port": 34771,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:34771",
+      "countryCode": "SG",
+      "latency": 212,
+      "lastCheck": "2025-11-28T14:58:09.915Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:49688#SG",
+      "host": "43.156.40.51",
+      "port": 49688,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:49688",
+      "countryCode": "SG",
+      "latency": 218,
+      "lastCheck": "2025-11-28T14:58:09.921Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:57115#SG",
+      "host": "43.156.40.51",
+      "port": 57115,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:57115",
+      "countryCode": "SG",
+      "latency": 227,
+      "lastCheck": "2025-11-28T14:58:09.930Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:30114#SG",
+      "host": "43.156.40.51",
+      "port": 30114,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:30114",
+      "countryCode": "SG",
+      "latency": 213,
+      "lastCheck": "2025-11-28T14:58:09.916Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:31615#SG",
+      "host": "43.156.40.51",
+      "port": 31615,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:31615",
+      "countryCode": "SG",
+      "latency": 222,
+      "lastCheck": "2025-11-28T14:58:09.925Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:54343#SG",
+      "host": "43.156.40.51",
+      "port": 54343,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:54343",
+      "countryCode": "SG",
+      "latency": 218,
+      "lastCheck": "2025-11-28T14:58:09.921Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:13432#SG",
+      "host": "43.156.40.51",
+      "port": 13432,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:13432",
+      "countryCode": "SG",
+      "latency": 221,
+      "lastCheck": "2025-11-28T14:58:09.924Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:51246#SG",
+      "host": "43.156.40.51",
+      "port": 51246,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:51246",
+      "countryCode": "SG",
+      "latency": 215,
+      "lastCheck": "2025-11-28T14:58:09.918Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:36704#SG",
+      "host": "43.156.40.51",
+      "port": 36704,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:36704",
+      "countryCode": "SG",
+      "latency": 214,
+      "lastCheck": "2025-11-28T14:58:09.917Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:18800#SG",
+      "host": "43.156.40.51",
+      "port": 18800,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:18800",
+      "countryCode": "SG",
+      "latency": 221,
+      "lastCheck": "2025-11-28T14:58:09.924Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:21988#SG",
+      "host": "43.156.40.51",
+      "port": 21988,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:21988",
+      "countryCode": "SG",
+      "latency": 224,
+      "lastCheck": "2025-11-28T14:58:09.927Z"
+    },
+    {
+      "url": "socks5://zsy:123456@43.156.40.51:53942#SG",
+      "host": "43.156.40.51",
+      "port": 53942,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:53942",
+      "countryCode": "SG",
+      "latency": 223,
+      "lastCheck": "2025-11-28T14:58:09.926Z"
+    },
+    {
+      "url": "socks5://eDDgd6Q3JJ:OQNjJEaYDj@43.156.40.51:55491#SG",
+      "host": "43.156.40.51",
+      "port": 55491,
+      "label": "🇸🇬|SOCKS5|43.156.40.51:55491",
+      "countryCode": "SG",
+      "latency": 238,
+      "lastCheck": "2025-11-28T14:58:09.941Z"
+    },
+    {
+      "url": "socks5://123:123@120.70.100.176:6200#CN",
+      "host": "120.70.100.176",
+      "port": 6200,
+      "label": "🇨🇳|SOCKS5|120.70.100.176:6200",
+      "countryCode": "CN",
+      "latency": 89,
+      "lastCheck": "2025-11-28T14:58:11.800Z"
+    },
+    {
+      "url": "socks5://lty520:lty123456@111.230.9.46:8888#CN",
+      "host": "111.230.9.46",
+      "port": 8888,
+      "label": "🇨🇳|SOCKS5|111.230.9.46:8888",
+      "countryCode": "CN",
+      "latency": 22,
+      "lastCheck": "2025-11-28T14:58:17.785Z"
+    },
+    {
+      "url": "socks5://bd9TIYC2gc:jlWELOleU6@156.238.226.207:41892#US",
+      "host": "156.238.226.207",
+      "port": 41892,
+      "label": "🇺🇸|SOCKS5|156.238.226.207:41892",
+      "countryCode": "US",
+      "latency": 180,
+      "lastCheck": "2025-11-28T14:58:17.943Z"
+    },
+    {
+      "url": "socks5://ciqing:a123456@1.12.253.245:5555#CN",
+      "host": "1.12.253.245",
+      "port": 5555,
+      "label": "🇨🇳|SOCKS5|1.12.253.245:5555",
+      "countryCode": "CN",
+      "latency": 32,
+      "lastCheck": "2025-11-28T14:58:17.795Z"
+    },
+    {
+      "url": "socks5://Misaka:Misaka@1.12.253.245:8636#CN",
+      "host": "1.12.253.245",
+      "port": 8636,
+      "label": "🇨🇳|SOCKS5|1.12.253.245:8636",
+      "countryCode": "CN",
+      "latency": 32,
+      "lastCheck": "2025-11-28T14:58:17.795Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@101.200.13.49:53931#CN",
+      "host": "101.200.13.49",
+      "port": 53931,
+      "label": "🇨🇳|SOCKS5|101.200.13.49:53931",
+      "countryCode": "CN",
+      "latency": 45,
+      "lastCheck": "2025-11-28T14:58:19.822Z"
+    },
+    {
+      "url": "socks5://2pC3tUfRa1:FvNYC8EVpL@156.238.226.207:25773#US",
+      "host": "156.238.226.207",
+      "port": 25773,
+      "label": "🇺🇸|SOCKS5|156.238.226.207:25773",
+      "countryCode": "US",
+      "latency": 173,
+      "lastCheck": "2025-11-28T14:58:19.950Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@216.167.47.78:43211#US",
+      "host": "216.167.47.78",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|216.167.47.78:43211",
+      "countryCode": "US",
+      "latency": 212,
+      "lastCheck": "2025-11-28T14:58:19.990Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@45.89.104.81:43211#US",
+      "host": "45.89.104.81",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|45.89.104.81:43211",
+      "countryCode": "US",
+      "latency": 237,
+      "lastCheck": "2025-11-28T14:58:20.014Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@45.89.104.18:43211#US",
+      "host": "45.89.104.18",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|45.89.104.18:43211",
+      "countryCode": "US",
+      "latency": 277,
+      "lastCheck": "2025-11-28T14:58:20.054Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@216.167.46.45:43211#US",
+      "host": "216.167.46.45",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|216.167.46.45:43211",
+      "countryCode": "US",
+      "latency": 218,
+      "lastCheck": "2025-11-28T14:58:19.996Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@216.167.45.189:43211#US",
+      "host": "216.167.45.189",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|216.167.45.189:43211",
+      "countryCode": "US",
+      "latency": 213,
+      "lastCheck": "2025-11-28T14:58:19.991Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@38.209.120.60:43211#US",
+      "host": "38.209.120.60",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|38.209.120.60:43211",
+      "countryCode": "US",
+      "latency": 175,
+      "lastCheck": "2025-11-28T14:58:19.953Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@45.12.82.246:43211#US",
+      "host": "45.12.82.246",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|45.12.82.246:43211",
+      "countryCode": "US",
+      "latency": 249,
+      "lastCheck": "2025-11-28T14:58:22.034Z"
+    },
+    {
+      "url": "socks5://Nq%24QfJc3_!:m9MD1LL8kE@138.2.62.113:50471#JP",
+      "host": "138.2.62.113",
+      "port": 50471,
+      "label": "🇯🇵|SOCKS5|138.2.62.113:50471",
+      "countryCode": "JP",
+      "latency": 209,
+      "lastCheck": "2025-11-28T14:58:24.001Z"
+    },
+    {
+      "url": "socks5://Fu9_gtXY%261:bvwyv)Cuc(@198.23.184.182:51278#US",
+      "host": "198.23.184.182",
+      "port": 51278,
+      "label": "🇺🇸|SOCKS5|198.23.184.182:51278",
+      "countryCode": "US",
+      "latency": 270,
+      "lastCheck": "2025-11-28T14:58:24.062Z"
+    },
+    {
+      "url": "socks5://G!7)Ziyd(b:Au-MwfMU*D@138.2.55.44:53946#JP",
+      "host": "138.2.55.44",
+      "port": 53946,
+      "label": "🇯🇵|SOCKS5|138.2.55.44:53946",
+      "countryCode": "JP",
+      "latency": 229,
+      "lastCheck": "2025-11-28T14:58:24.021Z"
+    },
+    {
+      "url": "socks5://K%5E%40iBDQ13g:h%23I0%25nvX1M@107.182.186.186:50884#US",
+      "host": "107.182.186.186",
+      "port": 50884,
+      "label": "🇺🇸|SOCKS5|107.182.186.186:50884",
+      "countryCode": "US",
+      "latency": 228,
+      "lastCheck": "2025-11-28T14:58:24.020Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@38.92.10.226:43211#US",
+      "host": "38.92.10.226",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|38.92.10.226:43211",
+      "countryCode": "US",
+      "latency": 220,
+      "lastCheck": "2025-11-28T14:58:26.608Z"
+    },
+    {
+      "url": "socks5://Misaka:Misaka@149.30.232.103:8636#HK",
+      "host": "149.30.232.103",
+      "port": 8636,
+      "label": "🇭🇰|SOCKS5|149.30.232.103:8636",
+      "countryCode": "HK",
+      "latency": 36,
+      "lastCheck": "2025-11-28T14:58:26.424Z"
+    },
+    {
+      "url": "socks5://Misaka:Misaka@149.30.232.103:8636#CN",
+      "host": "149.30.232.103",
+      "port": 8636,
+      "label": "🇨🇳|SOCKS5|149.30.232.103:8636",
+      "countryCode": "CN",
+      "latency": 35,
+      "lastCheck": "2025-11-28T14:58:26.423Z"
+    },
+    {
+      "url": "socks5://aididi:6720269@47.109.154.5:56459#CN",
+      "host": "47.109.154.5",
+      "port": 56459,
+      "label": "🇨🇳|SOCKS5|47.109.154.5:56459",
+      "countryCode": "CN",
+      "latency": 49,
+      "lastCheck": "2025-11-28T14:58:26.437Z"
+    },
+    {
+      "url": "socks5://tdh831105:xx831105@47.109.69.40:32755#CN",
+      "host": "47.109.69.40",
+      "port": 32755,
+      "label": "🇨🇳|SOCKS5|47.109.69.40:32755",
+      "countryCode": "CN",
+      "latency": 60,
+      "lastCheck": "2025-11-28T14:58:26.448Z"
+    },
+    {
+      "url": "socks5://366:366@1.71.130.182:366#CN",
+      "host": "1.71.130.182",
+      "port": 366,
+      "label": "🇨🇳|SOCKS5|1.71.130.182:366",
+      "countryCode": "CN",
+      "latency": 47,
+      "lastCheck": "2025-11-28T14:58:26.435Z"
+    },
+    {
+      "url": "socks5://bd9TIYC2gc:jlWELOleU6@www.liuye.space:41892#US",
+      "host": "www.liuye.space",
+      "port": 41892,
+      "label": "🇺🇸|SOCKS5|www.liuye.space:41892",
+      "countryCode": "US",
+      "latency": 357,
+      "lastCheck": "2025-11-28T14:58:26.746Z"
+    },
+    {
+      "url": "socks5://2pC3tUfRa1:FvNYC8EVpL@www.liuye.space:25773#US",
+      "host": "www.liuye.space",
+      "port": 25773,
+      "label": "🇺🇸|SOCKS5|www.liuye.space:25773",
+      "countryCode": "US",
+      "latency": 365,
+      "lastCheck": "2025-11-28T14:58:26.754Z"
+    },
+    {
+      "url": "socks5://123:123@113.62.175.83:123#CN",
+      "host": "113.62.175.83",
+      "port": 123,
+      "label": "🇨🇳|SOCKS5|113.62.175.83:123",
+      "countryCode": "CN",
+      "latency": 82,
+      "lastCheck": "2025-11-28T14:58:26.470Z"
+    },
+    {
+      "url": "socks5://123:123@113.62.175.83:122#CN",
+      "host": "113.62.175.83",
+      "port": 122,
+      "label": "🇨🇳|SOCKS5|113.62.175.83:122",
+      "countryCode": "CN",
+      "latency": 78,
+      "lastCheck": "2025-11-28T14:58:26.467Z"
+    },
+    {
+      "url": "socks5://zhaopeng:zp61750939@43.136.65.92:49348#CN",
+      "host": "43.136.65.92",
+      "port": 49348,
+      "label": "🇨🇳|SOCKS5|43.136.65.92:49348",
+      "countryCode": "CN",
+      "latency": 34,
+      "lastCheck": "2025-11-28T14:58:26.422Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@43.136.65.92:47433#CN",
+      "host": "43.136.65.92",
+      "port": 47433,
+      "label": "🇨🇳|SOCKS5|43.136.65.92:47433",
+      "countryCode": "CN",
+      "latency": 35,
+      "lastCheck": "2025-11-28T14:58:26.423Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@xcf030-0.facai2024.com:43211#US",
+      "host": "xcf030-0.facai2024.com",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|xcf030-0.facai2024.com:43211",
+      "countryCode": "US",
+      "latency": 582,
+      "lastCheck": "2025-11-28T14:58:29.424Z"
+    },
+    {
+      "url": "socks5://tdh831105:xx831105@114.132.221.199:24141#CN",
+      "host": "114.132.221.199",
+      "port": 24141,
+      "label": "🇨🇳|SOCKS5|114.132.221.199:24141",
+      "countryCode": "CN",
+      "latency": 33,
+      "lastCheck": "2025-11-28T14:58:28.883Z"
+    },
+    {
+      "url": "socks5://Misaka:Misaka@134.195.211.85:8636#US",
+      "host": "134.195.211.85",
+      "port": 8636,
+      "label": "🇺🇸|SOCKS5|134.195.211.85:8636",
+      "countryCode": "US",
+      "latency": 217,
+      "lastCheck": "2025-11-28T14:58:29.067Z"
+    },
+    {
+      "url": "socks5://CY2:123@106.58.222.64:52078#CN",
+      "host": "106.58.222.64",
+      "port": 52078,
+      "label": "🇨🇳|SOCKS5|106.58.222.64:52078",
+      "countryCode": "CN",
+      "latency": 61,
+      "lastCheck": "2025-11-28T14:58:28.911Z"
+    },
+    {
+      "url": "socks5://ph5nStmfzEq:uAhtNkudbAa@152.70.75.168:35187#IN",
+      "host": "152.70.75.168",
+      "port": 35187,
+      "label": "🇮🇳|SOCKS5|152.70.75.168:35187",
+      "countryCode": "IN",
+      "latency": 1170,
+      "lastCheck": "2025-11-28T14:58:32.023Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@113.62.171.126:66#CN",
+      "host": "113.62.171.126",
+      "port": 66,
+      "label": "🇨🇳|SOCKS5|113.62.171.126:66",
+      "countryCode": "CN",
+      "latency": 73,
+      "lastCheck": "2025-11-28T14:58:30.926Z"
+    },
+    {
+      "url": "socks5://8888:8888@101.33.207.214:10500#CN",
+      "host": "101.33.207.214",
+      "port": 10500,
+      "label": "🇨🇳|SOCKS5|101.33.207.214:10500",
+      "countryCode": "CN",
+      "latency": 27,
+      "lastCheck": "2025-11-28T14:58:30.880Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@182.151.26.242:291#CN",
+      "host": "182.151.26.242",
+      "port": 291,
+      "label": "🇨🇳|SOCKS5|182.151.26.242:291",
+      "countryCode": "CN",
+      "latency": 64,
+      "lastCheck": "2025-11-28T14:58:30.917Z"
+    },
+    {
+      "url": "socks5://LSDGHF-2dY:BZkA_uCtGN@45.89.104.52:54499#US",
+      "host": "45.89.104.52",
+      "port": 54499,
+      "label": "🇺🇸|SOCKS5|45.89.104.52:54499",
+      "countryCode": "US",
+      "latency": 246,
+      "lastCheck": "2025-11-28T14:58:33.101Z"
+    },
+    {
+      "url": "socks5://VO%3DYi%2BsrAi:jlC%2Bv-Le)%5E@104.244.95.72:59810#US",
+      "host": "104.244.95.72",
+      "port": 59810,
+      "label": "🇺🇸|SOCKS5|104.244.95.72:59810",
+      "countryCode": "US",
+      "latency": 244,
+      "lastCheck": "2025-11-28T14:58:33.100Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@182.151.41.88:91#CN",
+      "host": "182.151.41.88",
+      "port": 91,
+      "label": "🇨🇳|SOCKS5|182.151.41.88:91",
+      "countryCode": "CN",
+      "latency": 73,
+      "lastCheck": "2025-11-28T14:58:32.928Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@117.72.187.87:43211#CN",
+      "host": "117.72.187.87",
+      "port": 43211,
+      "label": "🇨🇳|SOCKS5|117.72.187.87:43211",
+      "countryCode": "CN",
+      "latency": 61,
+      "lastCheck": "2025-11-28T14:58:32.916Z"
+    },
+    {
+      "url": "socks5://2OZXXpdnb0:LyY6JlBngl@47.109.199.102:34639#CN",
+      "host": "47.109.199.102",
+      "port": 34639,
+      "label": "🇨🇳|SOCKS5|47.109.199.102:34639",
+      "countryCode": "CN",
+      "latency": 63,
+      "lastCheck": "2025-11-28T14:58:32.918Z"
+    },
+    {
+      "url": "socks5://k5s3dQZ7jY:aU8TMOc5nj@120.26.0.227:52753#CN",
+      "host": "120.26.0.227",
+      "port": 52753,
+      "label": "🇨🇳|SOCKS5|120.26.0.227:52753",
+      "countryCode": "CN",
+      "latency": 37,
+      "lastCheck": "2025-11-28T14:58:32.892Z"
+    },
+    {
+      "url": "socks5://SX5UzD8hUE:Rk8QU7Dxco@47.92.84.51:13754#CN",
+      "host": "47.92.84.51",
+      "port": 13754,
+      "label": "🇨🇳|SOCKS5|47.92.84.51:13754",
+      "countryCode": "CN",
+      "latency": 43,
+      "lastCheck": "2025-11-28T14:58:35.422Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@47.92.84.51:43211#CN",
+      "host": "47.92.84.51",
+      "port": 43211,
+      "label": "🇨🇳|SOCKS5|47.92.84.51:43211",
+      "countryCode": "CN",
+      "latency": 45,
+      "lastCheck": "2025-11-28T14:58:35.423Z"
+    },
+    {
+      "url": "socks5://McmRts2Ami:gdSffgb8aV@106.14.225.164:12103#CN",
+      "host": "106.14.225.164",
+      "port": 12103,
+      "label": "🇨🇳|SOCKS5|106.14.225.164:12103",
+      "countryCode": "CN",
+      "latency": 34,
+      "lastCheck": "2025-11-28T14:58:35.412Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@106.14.225.164:43211#CN",
+      "host": "106.14.225.164",
+      "port": 43211,
+      "label": "🇨🇳|SOCKS5|106.14.225.164:43211",
+      "countryCode": "CN",
+      "latency": 34,
+      "lastCheck": "2025-11-28T14:58:35.412Z"
+    },
+    {
+      "url": "socks5://RJsodblTLR:ne6QJMUE3J@8.155.33.211:19584#CN",
+      "host": "8.155.33.211",
+      "port": 19584,
+      "label": "🇨🇳|SOCKS5|8.155.33.211:19584",
+      "countryCode": "CN",
+      "latency": 38,
+      "lastCheck": "2025-11-28T14:58:35.417Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@8.155.33.211:43211#CN",
+      "host": "8.155.33.211",
+      "port": 43211,
+      "label": "🇨🇳|SOCKS5|8.155.33.211:43211",
+      "countryCode": "CN",
+      "latency": 39,
+      "lastCheck": "2025-11-28T14:58:35.417Z"
+    },
+    {
+      "url": "socks5://4akyFTieV2:AcnbJlQBDu@8.138.130.109:12926#CN",
+      "host": "8.138.130.109",
+      "port": 12926,
+      "label": "🇨🇳|SOCKS5|8.138.130.109:12926",
+      "countryCode": "CN",
+      "latency": 31,
+      "lastCheck": "2025-11-28T14:58:35.409Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@8.138.130.109:43211#CN",
+      "host": "8.138.130.109",
+      "port": 43211,
+      "label": "🇨🇳|SOCKS5|8.138.130.109:43211",
+      "countryCode": "CN",
+      "latency": 31,
+      "lastCheck": "2025-11-28T14:58:35.409Z"
+    },
+    {
+      "url": "socks5://KAyx2cROED:J9pftpQSWp@23.27.11.254:33835#US",
+      "host": "23.27.11.254",
+      "port": 33835,
+      "label": "🇺🇸|SOCKS5|23.27.11.254:33835",
+      "countryCode": "US",
+      "latency": 130,
+      "lastCheck": "2025-11-28T14:58:35.508Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@23.27.11.254:43211#US",
+      "host": "23.27.11.254",
+      "port": 43211,
+      "label": "🇺🇸|SOCKS5|23.27.11.254:43211",
+      "countryCode": "US",
+      "latency": 129,
+      "lastCheck": "2025-11-28T14:58:35.508Z"
+    },
+    {
+      "url": "socks5://X2f9wFLITf:x6KDrxXovZ@120.26.228.99:28983#CN",
+      "host": "120.26.228.99",
+      "port": 28983,
+      "label": "🇨🇳|SOCKS5|120.26.228.99:28983",
+      "countryCode": "CN",
+      "latency": 33,
+      "lastCheck": "2025-11-28T14:58:35.411Z"
+    },
+    {
+      "url": "socks5://OEK8l6DF5Y:6NrfQu7Vj7@106.52.47.141:38574#CN",
+      "host": "106.52.47.141",
+      "port": 38574,
+      "label": "🇨🇳|SOCKS5|106.52.47.141:38574",
+      "countryCode": "CN",
+      "latency": 30,
+      "lastCheck": "2025-11-28T14:58:35.409Z"
+    },
+    {
+      "url": "socks5://uPwTeRgZet:OmwKOhUAIZ@101.201.208.143:15776#CN",
+      "host": "101.201.208.143",
+      "port": 15776,
+      "label": "🇨🇳|SOCKS5|101.201.208.143:15776",
+      "countryCode": "CN",
+      "latency": 62,
+      "lastCheck": "2025-11-28T14:58:35.440Z"
+    },
+    {
+      "url": "socks5://abc%401230123:abc%401230123@101.201.208.143:43211#CN",
+      "host": "101.201.208.143",
+      "port": 43211,
+      "label": "🇨🇳|SOCKS5|101.201.208.143:43211",
+      "countryCode": "CN",
+      "latency": 51,
+      "lastCheck": "2025-11-28T14:58:35.429Z"
+    },
+    {
+      "url": "socks5://feC%2BE%24GJ%26D:6EtH-ZKr4Y@8.217.73.30:56629#HK",
+      "host": "8.217.73.30",
+      "port": 56629,
+      "label": "🇭🇰|SOCKS5|8.217.73.30:56629",
+      "countryCode": "HK",
+      "latency": 1066,
+      "lastCheck": "2025-11-28T14:58:36.444Z"
+    },
+    {
+      "url": "socks5://feC%2BE%24GJ%26D:6EtH-ZKr4Y@8.217.73.30:56629#CN",
+      "host": "8.217.73.30",
+      "port": 56629,
+      "label": "🇨🇳|SOCKS5|8.217.73.30:56629",
+      "countryCode": "CN",
+      "latency": 46,
+      "lastCheck": "2025-11-28T14:58:35.424Z"
+    },
+    {
+      "url": "socks5://LR%250-23s%26!:WCQuEG9_lh@144.34.245.131:52367#US",
+      "host": "144.34.245.131",
+      "port": 52367,
+      "label": "🇺🇸|SOCKS5|144.34.245.131:52367",
+      "countryCode": "US",
+      "latency": 208,
+      "lastCheck": "2025-11-28T14:58:35.586Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@47.242.182.5:47433#HK",
+      "host": "47.242.182.5",
+      "port": 47433,
+      "label": "🇭🇰|SOCKS5|47.242.182.5:47433",
+      "countryCode": "HK",
+      "latency": 1061,
+      "lastCheck": "2025-11-28T14:58:36.439Z"
+    },
+    {
+      "url": "socks5://socks5:socks5@47.242.182.5:47433#CN",
+      "host": "47.242.182.5",
+      "port": 47433,
+      "label": "🇨🇳|SOCKS5|47.242.182.5:47433",
+      "countryCode": "CN",
+      "latency": 53,
+      "lastCheck": "2025-11-28T14:58:35.431Z"
+    },
+    {
+      "url": "socks5://EMVnqel2tz:JFJQ5nKTDy@49.51.48.156:8800#US",
+      "host": "49.51.48.156",
+      "port": 8800,
+      "label": "🇺🇸|SOCKS5|49.51.48.156:8800",
+      "countryCode": "US",
+      "latency": 371,
+      "lastCheck": "2025-11-28T14:58:35.749Z"
+    },
+    {
+      "url": "socks5://Ap8ESKWlRw:n7S3BhPGCk@49.51.48.156:8089#US",
+      "host": "49.51.48.156",
+      "port": 8089,
+      "label": "🇺🇸|SOCKS5|49.51.48.156:8089",
+      "countryCode": "US",
+      "latency": 1371,
+      "lastCheck": "2025-11-28T14:58:36.749Z"
+    },
+    {
+      "url": "socks5://9SpX6eFquo:pHWh1pnaIl@8.148.205.110:50357#CN",
+      "host": "8.148.205.110",
+      "port": 50357,
+      "label": "🇨🇳|SOCKS5|8.148.205.110:50357",
+      "countryCode": "CN",
+      "latency": 23,
+      "lastCheck": "2025-11-28T14:58:37.406Z"
     }
   ],
-  "timestamp": "2025-11-23T07:03:54.482Z"
+  "timestamp": "2025-11-28T14:58:40.023Z"
 }

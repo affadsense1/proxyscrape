@@ -219,6 +219,26 @@ function nodeToProxy(nodeUrl: string, index: number): any {
             return cleanConfig(vlessConfig);
         }
 
+        if (nodeUrl.startsWith('socks5://')) {
+            const url = new URL(nodeUrl);
+            const socks5Config: any = {
+                name,
+                type: 'socks5',
+                server: url.hostname,
+                port: parseInt(url.port),
+            };
+
+            // SOCKS5 认证信息
+            if (url.username) {
+                socks5Config.username = decodeURIComponent(url.username);
+            }
+            if (url.password) {
+                socks5Config.password = decodeURIComponent(url.password);
+            }
+
+            return cleanConfig(socks5Config);
+        }
+
     } catch (e) {
         // Ignore
     }
